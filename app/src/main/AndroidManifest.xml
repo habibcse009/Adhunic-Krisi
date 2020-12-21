@@ -9,6 +9,9 @@
         android:roundIcon="@drawable/logo_circle"
         android:supportsRtl="true"
         android:theme="@style/Theme.Adunik_krisi">
+        <activity android:name=".ContactAdminActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

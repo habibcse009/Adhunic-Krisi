@@ -1,29 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/background_one"
     android:layout_height="match_parent"
+    android:background="#F4EFEF"
     tools:context=".SplashActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="আধুনিক কৃষি!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textSize="28sp"
-        android:textColor="#123"/>
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        <ImageView
+            android:layout_width="248dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/logo_main" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="কৃষকের মুখে হাসি ফোটানোর অঙ্গীকার"
+            android:textColor="@color/Asphalt_grey"
+            android:textSize="19sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_below="@id/layout1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/resourse_img_one"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="77dp" />
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gf"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:src="@drawable/preloader"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
