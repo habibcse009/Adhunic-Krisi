@@ -22,7 +22,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-
+import com.project.adunik_krisi.Admin.AdminMainActivity;
+import com.project.adunik_krisi.Customer.CusMainActivity;
+import com.project.adunik_krisi.Farmer.FarmerMainActivity;
 import com.romainpiel.shimmer.Shimmer;
 import com.romainpiel.shimmer.ShimmerTextView;
 
@@ -92,10 +94,10 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                final String[] typeList = {"ক্রেতা", "কৃষক", "এডমিন"};
+                final String[] typeList = {"Customer", "Farmer", "Admin"};
 
-                AlertDialog.Builder builder = new AlertDialog.Builder( LoginActivity.this);
-                builder.setTitle("SELECT TYPE");
+                AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
+                builder.setTitle("একাউন্টের ধরন নির্ধারণ করুন");
                 //builder.setIcon(R.drawable.ic_gender);
 
 
@@ -139,7 +141,7 @@ public class LoginActivity extends AppCompatActivity {
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent( LoginActivity.this, RegistrationActivity.class);
+                Intent intent = new Intent(LoginActivity.this, RegistrationActivity.class);
                 startActivity(intent);
             }
         });
@@ -199,7 +201,7 @@ public class LoginActivity extends AppCompatActivity {
                             //If we are getting success from server
                             if (myResponse.equals("admin")) {
                                 //Creating a shared preference
-                                sharedPreferences =  LoginActivity.this.getSharedPreferences(Constant.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+                                sharedPreferences = LoginActivity.this.getSharedPreferences(Constant.SHARED_PREF_NAME, Context.MODE_PRIVATE);
 
                                 //Creating editor to store values to shared preferences
                                 SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -218,18 +220,18 @@ public class LoginActivity extends AppCompatActivity {
                                 loading.dismiss();
                                 //Starting profile activity
 
-                                Toasty.success( LoginActivity.this, "Login Success!", Toast.LENGTH_SHORT, true).show();
+                                Toasty.success(LoginActivity.this, "এডমিন প্যানেলে লগইন সঠিকভাবে হয়েছে!", Toast.LENGTH_SHORT, true).show();
 
 
                                 //warningDialog();
 
-                              //  Intent intent = new Intent( LoginActivity.this, AdminMainActivity.class);
-                             //   startActivity(intent);
+                                Intent intent = new Intent(LoginActivity.this, AdminMainActivity.class);
+                                startActivity(intent);
 
 
                             } else if (myResponse.equals("customer")) {
                                 //Creating a shared preference
-                                sharedPreferences =  LoginActivity.this.getSharedPreferences(Constant.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+                                sharedPreferences = LoginActivity.this.getSharedPreferences(Constant.SHARED_PREF_NAME, Context.MODE_PRIVATE);
 
                                 //Creating editor to store values to shared preferences
                                 SharedPreferences.Editor editor = sharedPreferences.edit();
@@ -248,22 +250,21 @@ public class LoginActivity extends AppCompatActivity {
                                 loading.dismiss();
                                 //Starting profile activity
 
-                                Toasty.success( LoginActivity.this, "Login Success!", Toast.LENGTH_SHORT, true).show();
+                                Toasty.success(LoginActivity.this, "ক্রেতার প্যানেলে লগইন সঠিকভাবে হয়েছে!", Toast.LENGTH_SHORT, true).show();
 
 
                                 //warningDialog();
 
-                              //  Intent intent = new Intent( LoginActivity.this, CustomerMainActivity.class);
-                              //  startActivity(intent);
+                                Intent intent = new Intent(LoginActivity.this, CusMainActivity.class);
+                                startActivity(intent);
 
 
-                            } else if (myResponse.equalsIgnoreCase("service_provider")) {
+                            } else if (myResponse.equalsIgnoreCase("farmer")) {
                                 //Creating a shared preference
-                                sharedPreferences =  LoginActivity.this.getSharedPreferences(Constant.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+                                sharedPreferences = LoginActivity.this.getSharedPreferences(Constant.SHARED_PREF_NAME, Context.MODE_PRIVATE);
 
                                 //Creating editor to store values to shared preferences
-                                SharedPreferences.Editor editor = sharedPreferences.edit();
-
+                                SharedPreferences.Editor editor = sharedPreferences.edit();String account_type = "farmer";
                                 //Adding values to editor
                                 editor.putString(Constant.AC_TYPE_SHARED_PREF, account_type);
                                 editor.putString(Constant.CELL_SHARED_PREF, userCell);
@@ -278,20 +279,20 @@ public class LoginActivity extends AppCompatActivity {
                                 loading.dismiss();
                                 //Starting profile activity
 
-                                Toasty.success( LoginActivity.this, "Login Success!", Toast.LENGTH_SHORT, true).show();
+                                Toasty.success(LoginActivity.this, "কৃষকের প্যানেলে লগইন সঠিকভাবে হয়েছে!", Toast.LENGTH_SHORT, true).show();
 
 
                                 //warningDialog();
 
-                             //   Intent intent = new Intent( LoginActivity.this, SpMainActivity.class);
-                             //   startActivity(intent);
+                                Intent intent = new Intent(LoginActivity.this, FarmerMainActivity.class);
+                                startActivity(intent);
 
 
                             } else {
                                 //If the server response is not success
                                 //Displaying an error message on toast
 
-                                Toasty.error( LoginActivity.this, "Invalid mobile number or password", Toast.LENGTH_SHORT, true).show();
+                                Toasty.error(LoginActivity.this, "মোবাইল নাম্বার অথবা পাসওয়ার্ড ভুল দিয়েছেন!", Toast.LENGTH_SHORT, true).show();
                                 //Toast.makeText(Activity_Signin.this, "Invalid Cell or password", Toast.LENGTH_LONG).show();
                                 loading.dismiss();
                             }
@@ -303,7 +304,7 @@ public class LoginActivity extends AppCompatActivity {
                         public void onErrorResponse(VolleyError error) {
                             //You can handle error here if you want
 
-                            Toasty.error( LoginActivity.this, "Error in connection!!", Toast.LENGTH_SHORT, true).show();
+                            Toasty.error(LoginActivity.this, "ইন্টারনেট কানেকশনের সমস্যা! লগইন হয়েছে!", Toast.LENGTH_SHORT, true).show();
                             // Toast.makeText(Activity_Signin.this, "Error in connection!!!", Toast.LENGTH_LONG).show();
                             loading.dismiss();
                         }
@@ -333,48 +334,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
-//
-//
-//    private void requestAllPermission() {
-//        Dexter.withActivity(this)
-//                .withPermissions(
-//                        Manifest.permission.READ_EXTERNAL_STORAGE,
-//                        Manifest.permission.WRITE_EXTERNAL_STORAGE,
-//                        Manifest.permission.ACCESS_NETWORK_STATE,
-//                        Manifest.permission.READ_CONTACTS,
-//                        Manifest.permission.CAMERA,
-//                        Manifest.permission.ACCESS_COARSE_LOCATION,
-//                        Manifest.permission.ACCESS_FINE_LOCATION)
-//                .withListener(new MultiplePermissionsListener() {
-//                    @Override
-//                    public void onPermissionsChecked(MultiplePermissionsReport report) {
-//                        // check if all permissions are granted
-//                        if (report.areAllPermissionsGranted()) {
-//                            // Toast.makeText(getApplicationContext(), "All permissions are granted!", Toast.LENGTH_SHORT).show();
-//                        }
-//
-//                        // check for permanent denial of any permission
-//                        if (report.isAnyPermissionPermanentlyDenied()) {
-//                            // show alert dialog navigating to Settings
-//                            //showSettingsDialog();
-//                        }
-//                    }
-//
-//                    @Override
-//                    public void onPermissionRationaleShouldBeShown(List<PermissionRequest> permissions, PermissionToken token) {
-//                        token.continuePermissionRequest();
-//                    }
-//                }).
-//                withErrorListener(new PermissionRequestErrorListener() {
-//                    @Override
-//                    public void onError(DexterError error) {
-//                        //Toast.makeText(getApplicationContext(), "Error occurred! ", Toast.LENGTH_SHORT).show();
-//                    }
-//                })
-//                .onSameThread()
-//                .check();
-//    }
-//
+
 
 
 }

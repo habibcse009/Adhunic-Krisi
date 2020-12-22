@@ -80,7 +80,7 @@ public class RegistrationActivity extends AppCompatActivity {
                 final String[] genderList = {"পুরুষ", "নারী"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(RegistrationActivity.this);
-                builder.setTitle("SELECT GENDER");
+                builder.setTitle("লিঙ্গ নির্ধারণ করুন");
                 //builder.setIcon(R.drawable.ic_gender);
 
 
@@ -123,10 +123,10 @@ public class RegistrationActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                final String[] typeList = {"ক্রেতা", "কৃষক"};
+                final String[] typeList = {"Customer", "Farmer"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(RegistrationActivity.this);
-                builder.setTitle("SELECT ACCOUNT TYPE");
+                builder.setTitle("একাউন্টের ধরন নির্ধারণ করুন");
                 //builder.setIcon(R.drawable.ic_gender);
 
 
@@ -172,7 +172,7 @@ public class RegistrationActivity extends AppCompatActivity {
                 final String[] cityList = {"Dhaka", "Chittagong", "Sylhet", "Rajshahi", "Barishal", "Khulna", "Rangpur", "Mymensingh"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(RegistrationActivity.this);
-                builder.setTitle("SELECT DIVISION");
+                builder.setTitle("বিভাগ নির্ধারণ করুন");
                 //builder.setIcon(R.drawable.ic_location);
 
 
@@ -272,8 +272,7 @@ public class RegistrationActivity extends AppCompatActivity {
                 else if (mobile.length() != 11 || mobile.contains(" ") || mobile.charAt(0) != '0' || mobile.charAt(1) != '1') {
                     etxtCell.setError("সঠিক মোবাইল নাম্বার দিন!");
                     requestFocus(etxtCell);
-                }
-                else if (email.isEmpty()) {
+                } else if (email.isEmpty()) {
                     etxtEmail.setError("সঠিক ইমেইল এড্রেস দিন!");
                     requestFocus(etxtEmail);
                 }
@@ -296,12 +295,10 @@ public class RegistrationActivity extends AppCompatActivity {
                     etxtPassword.setError("পাসওয়ার্ড সর্বনিম্ন ৬ সংখ্যার হতে হবে!");
                     requestFocus(etxtPassword);
 
-                }
-                else if (gender.isEmpty()) {
+                } else if (gender.isEmpty()) {
                     etxtGender.setError("লিঙ্গ নির্ধারণ করুন!");
                     requestFocus(etxtGender);
-                }
-                else {
+                } else {
 
 
                     signup();
@@ -320,7 +317,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
         //showing progress dialog
 //
-        loading = new ProgressDialog( RegistrationActivity.this);
+        loading = new ProgressDialog(RegistrationActivity.this);
         loading.setMessage("লোডিং হচ্ছে, অপেক্ষা করুন...");
         loading.show();
 
@@ -343,13 +340,13 @@ public class RegistrationActivity extends AppCompatActivity {
 
                             loading.dismiss();
                             //Starting profile activity
-                            Intent intent = new Intent( RegistrationActivity.this,  LoginActivity.class);
-                            Toasty.success( RegistrationActivity.this, "Registration successful", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(RegistrationActivity.this, LoginActivity.class);
+                            Toasty.success(RegistrationActivity.this, "আপনার একাউন্ট সঠিকভাবে চালু হয়েছে!", Toast.LENGTH_SHORT).show();
                             startActivity(intent);
 
                         } else if (myResponse.equalsIgnoreCase(Constant.USER_EXISTS)) {
 
-                            Toasty.error( RegistrationActivity.this, "User Already exists!", Toast.LENGTH_SHORT).show();
+                            Toasty.error(RegistrationActivity.this, "আগেই অন্যকারো একাউন্ট আছে!", Toast.LENGTH_SHORT).show();
                             loading.dismiss();
 
                         }
@@ -362,7 +359,7 @@ public class RegistrationActivity extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
                         //You can handle error here if you want
 
-                        Toasty.error( RegistrationActivity.this, "Error in connection!", Toast.LENGTH_LONG).show();
+                        Toasty.error(RegistrationActivity.this, "ইন্টারনেট কানেকশনের সমস্যা!", Toast.LENGTH_LONG).show();
                         // loading.dismiss();
                     }
                 }) {

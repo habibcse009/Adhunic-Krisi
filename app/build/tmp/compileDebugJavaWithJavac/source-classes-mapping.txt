@@ -1,21 +1,3 @@
-com/project/adunik_krisi/remote/ApiInterface.java
- com.project.adunik_krisi.remote.ApiInterface
-com/project/adunik_krisi/ContactAdminActivity.java
- com.project.adunik_krisi.ContactAdminActivity
- com.project.adunik_krisi.ContactAdminActivity$1
- com.project.adunik_krisi.ContactAdminActivity$2
- com.project.adunik_krisi.ContactAdminActivity$3
- com.project.adunik_krisi.ContactAdminActivity$4
- com.project.adunik_krisi.ContactAdminActivity$5
-com/project/adunik_krisi/Constant.java
- com.project.adunik_krisi.Constant
-com/project/adunik_krisi/BuildConfig.java
- com.project.adunik_krisi.BuildConfig
-com/project/adunik_krisi/remote/ApiClient.java
- com.project.adunik_krisi.remote.ApiClient
-com/project/adunik_krisi/SplashActivity.java
- com.project.adunik_krisi.SplashActivity
- com.project.adunik_krisi.SplashActivity$1
 com/project/adunik_krisi/LoginActivity.java
  com.project.adunik_krisi.LoginActivity
  com.project.adunik_krisi.LoginActivity$1
@@ -26,6 +8,28 @@ com/project/adunik_krisi/LoginActivity.java
  com.project.adunik_krisi.LoginActivity$4
  com.project.adunik_krisi.LoginActivity$5
  com.project.adunik_krisi.LoginActivity$6
+com/project/adunik_krisi/ContactAdminActivity.java
+ com.project.adunik_krisi.ContactAdminActivity
+ com.project.adunik_krisi.ContactAdminActivity$1
+ com.project.adunik_krisi.ContactAdminActivity$2
+ com.project.adunik_krisi.ContactAdminActivity$3
+ com.project.adunik_krisi.ContactAdminActivity$4
+ com.project.adunik_krisi.ContactAdminActivity$5
+com/project/adunik_krisi/Constant.java
+ com.project.adunik_krisi.Constant
+com/project/adunik_krisi/SplashActivity.java
+ com.project.adunik_krisi.SplashActivity
+ com.project.adunik_krisi.SplashActivity$1
+com/project/adunik_krisi/Admin/AdminMainActivity.java
+ com.project.adunik_krisi.Admin.AdminMainActivity
+com/project/adunik_krisi/Farmer/FarmerMainActivity.java
+ com.project.adunik_krisi.Farmer.FarmerMainActivity
+com/project/adunik_krisi/remote/ApiClient.java
+ com.project.adunik_krisi.remote.ApiClient
+com/project/adunik_krisi/BuildConfig.java
+ com.project.adunik_krisi.BuildConfig
+com/project/adunik_krisi/Customer/CusMainActivity.java
+ com.project.adunik_krisi.Customer.CusMainActivity
 com/project/adunik_krisi/RegistrationActivity.java
  com.project.adunik_krisi.RegistrationActivity
  com.project.adunik_krisi.RegistrationActivity$1
@@ -41,3 +45,5 @@ com/project/adunik_krisi/RegistrationActivity.java
  com.project.adunik_krisi.RegistrationActivity$5
  com.project.adunik_krisi.RegistrationActivity$6
  com.project.adunik_krisi.RegistrationActivity$7
+com/project/adunik_krisi/remote/ApiInterface.java
+ com.project.adunik_krisi.remote.ApiInterface

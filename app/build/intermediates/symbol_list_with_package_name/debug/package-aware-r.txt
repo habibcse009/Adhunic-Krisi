@@ -1695,11 +1695,14 @@ drawable ic_chat
 drawable ic_check_white_24dp
 drawable ic_clear_white_24dp
 drawable ic_contact_us
+drawable ic_create_notice
+drawable ic_cus_list
 drawable ic_cus_order
 drawable ic_dashboard_black_24dp
 drawable ic_doctor_list
 drawable ic_donation_tips
 drawable ic_error_outline_white_24dp
+drawable ic_farmer_list
 drawable ic_find_ambulance
 drawable ic_find_doctor
 drawable ic_find_hospital
@@ -1709,6 +1712,8 @@ drawable ic_home_black_24dp
 drawable ic_hospital
 drawable ic_icon_one
 drawable ic_info_outline_white_24dp
+drawable ic_krisi_info
+drawable ic_krisi_ponno
 drawable ic_launcher
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1716,6 +1721,7 @@ drawable ic_loading
 drawable ic_location
 drawable ic_lock
 drawable ic_logout
+drawable ic_main_profile
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1922,6 +1928,13 @@ id buttonPanel
 id cache_measures
 id cancel_action
 id cancel_button
+id card_FarmerlistAdmn
+id card_allCusAdmn
+id card_allProductsAdmn
+id card_createNotice
+id card_krisi_info
+id card_logoutAdmn
+id card_profileAdmn
 id cell
 id center
 id center_horizontal
@@ -2227,6 +2240,9 @@ id txtContent
 id txtLoginTitle
 id txtTitle
 id txtTitlesignup
+id txt_message
+id txtwelcomeAdmn
+id txtwelcomeNameAdmn
 id unchecked
 id uniform
 id unlabeled
@@ -2300,7 +2316,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_admin_main
 layout activity_contact_admin
+layout activity_cus_main
+layout activity_farmer_main
 layout activity_image_select
 layout activity_login
 layout activity_registration

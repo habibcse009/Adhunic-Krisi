@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.tt.whorlviewlibrary.WhorlView;
 
 public class SplashActivity extends AppCompatActivity {
-    int splashTimeOut = 4000;            //splash window time in mini secound
+    int splashTimeOut = 3000;            //splash window time in mini secound
     GifImageView gifImageView;
     TextView txtTitle;
     @Override

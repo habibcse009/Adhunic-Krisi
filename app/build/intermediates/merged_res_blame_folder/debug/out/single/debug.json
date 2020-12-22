@@ -132,6 +132,10 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\ic_opps_search.xml"
     },
     {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_farmer_main.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\layout\\activity_farmer_main.xml"
+    },
+    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_blood.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_blood.png"
     },
@@ -284,6 +288,10 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\ic_contact_us.xml"
     },
     {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cus_list.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\ic_cus_list.xml"
+    },
+    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_potato.jpg.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\potato.jpg"
     },
@@ -320,6 +328,10 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\image_placeholder.png"
     },
     {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cus_main.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\layout\\activity_cus_main.xml"
+    },
+    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bgbtnonfocus.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\bgbtnonfocus.xml"
     },
@@ -344,8 +356,20 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\welcomebackground.png"
     },
     {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_main.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\layout\\activity_admin_main.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_krisi_info.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\ic_krisi_info.xml"
+    },
+    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_profile.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\ic_main_profile.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_crops.png.flat",
@@ -400,12 +424,20 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\ic_call.xml"
     },
     {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_farmer_list.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\ic_farmer_list.xml"
+    },
+    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_blood.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_blood.png"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_applogo.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_applogo.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_krisi_ponno.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\ic_krisi_ponno.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -446,6 +478,10 @@
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_help.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\ic_help.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_create_notice.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\src\\main\\res\\drawable\\ic_create_notice.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_review.xml.flat",

@@ -8,6 +8,7 @@
         android:minSdkVersion="23"
         android:targetSdkVersion="30" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -21,7 +22,11 @@
         android:roundIcon="@drawable/logo_circle"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Adunik_krisi" >
+        android:theme="@style/Theme.Adunik_krisi"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.project.adunik_krisi.Farmer.FarmerMainActivity" />
+        <activity android:name="com.project.adunik_krisi.Customer.CusMainActivity" />
+        <activity android:name="com.project.adunik_krisi.Admin.AdminMainActivity" />
         <activity android:name="com.project.adunik_krisi.ContactAdminActivity" />
         <activity android:name="com.project.adunik_krisi.RegistrationActivity" />
         <activity android:name="com.project.adunik_krisi.LoginActivity" />
@@ -32,6 +37,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
         <activity
             android:name="com.karumi.dexter.DexterActivity"
             android:theme="@style/Dexter.Internal.Theme.Transparent" />
