@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
                     "source": "C:\\Users\\habib\\.gradle\\caches\\transforms-2\\files-2.1\\46563e1e7d703e135d559561a9b0a202\\jetified-NiftyDialogEffects-v1.0.3\\res\\values-v14\\values-v14.xml",
