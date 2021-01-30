@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_one"
+    android:background="@drawable/background_five"
     tools:context=".RegistrationActivity">
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -65,9 +65,9 @@
                         android:focusable="false"
                         android:hint="একাউন্টের ধরন"
                         android:inputType="text"
-
                         android:padding="16dp"
                         android:textColor="#123"
+                        android:textColorHint="#123"
                         android:textSize="16dp" />
 
                     <EditText
@@ -79,8 +79,10 @@
                         android:background="@drawable/round_border"
                         android:hint="সম্পূর্ন নাম"
                         android:inputType="text"
+
                         android:padding="16dp"
                         android:textColor="#123"
+                        android:textColorHint="#123"
                         android:textSize="16dp" />
 
 
@@ -93,10 +95,12 @@
                         android:layout_marginRight="22dp"
                         android:background="@drawable/round_border"
                         android:hint="মোবাইল নাম্বার"
-                        android:maxLength="11"
                         android:inputType="phone"
+                        android:maxLength="11"
                         android:padding="16dp"
                         android:textColor="#123"
+
+                        android:textColorHint="#123"
                         android:textSize="16dp" />
 
                     <EditText
@@ -108,11 +112,12 @@
 
                         android:layout_marginRight="22dp"
                         android:background="@drawable/round_border"
-
                         android:hint="ইমেইল এড্রেস"
+
                         android:inputType="textEmailAddress"
                         android:padding="16dp"
                         android:textColor="#123"
+                        android:textColorHint="#123"
                         android:textSize="16dp" />
 
 
@@ -128,8 +133,10 @@
                         android:focusable="false"
                         android:hint="বিভাগ"
                         android:inputType="text"
+
                         android:padding="16dp"
                         android:textColor="#123"
+                        android:textColorHint="#123"
                         android:textSize="16dp" />
 
                     <EditText
@@ -143,7 +150,9 @@
                         android:hint="বিস্তারিত ঠিকানা"
                         android:inputType="text"
                         android:padding="16dp"
+
                         android:textColor="#123"
+                        android:textColorHint="#123"
                         android:textSize="16dp" />
 
                     <EditText
@@ -156,10 +165,12 @@
                         android:background="@drawable/round_border"
                         android:hint="পাসওয়ার্ড"
                         android:inputType="textPassword"
+
                         android:maxLength="12"
                         android:padding="16dp"
-
                         android:textColor="#123"
+
+                        android:textColorHint="#123"
                         android:textSize="16dp" />
 
 
@@ -175,8 +186,10 @@
                         android:focusable="false"
                         android:hint="লিঙ্গ"
                         android:inputType="text"
+
                         android:padding="16dp"
                         android:textColor="#123"
+                        android:textColorHint="#123"
 
                         android:textSize="16dp" />
 
