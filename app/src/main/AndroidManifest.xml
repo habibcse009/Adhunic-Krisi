@@ -15,7 +15,14 @@
         android:theme="@style/Theme.Adunik_krisi"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Farmer.Profile.EditProfileFarmerActivity"></activity>
+        <activity android:name=".Admin.AddNoticeAdminActivity"></activity>
+        <activity android:name=".Admin.UsersList.FarmersListAdminActivity" />
+        <activity android:name=".Admin.UsersList.CustomersListAdminActivity" />
+        <activity android:name=".Customer.KrisiInfoCusActivity" />
+        <activity android:name=".Customer.AdminNoticeCusActivity" />
+        <activity android:name=".Customer.FarmersList.FarmersListCusActivity" />
+        <activity android:name=".Customer.Orders.OrderListCusActivity" />
+        <activity android:name=".Farmer.Profile.EditProfileFarmerActivity" />
         <activity android:name=".Farmer.Profile.ProfileFarmerActivity" />
         <activity android:name=".Customer.Profile.EditProfileCusActivity" />
         <activity android:name=".Customer.Profile.ProfileCusActivity" />

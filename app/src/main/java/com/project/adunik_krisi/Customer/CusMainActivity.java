@@ -16,6 +16,8 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.project.adunik_krisi.Constant;
+import com.project.adunik_krisi.Customer.FarmersList.FarmersListCusActivity;
+import com.project.adunik_krisi.Customer.Orders.OrderListCusActivity;
 import com.project.adunik_krisi.Customer.Profile.ProfileCusActivity;
 import com.project.adunik_krisi.LoginActivity;
 import com.project.adunik_krisi.R;
@@ -92,10 +94,10 @@ public class CusMainActivity extends AppCompatActivity {
         cardAllFarmersCus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-/*
-                Intent intent = new Intent(CusMainActivity.this, ShopListCustActivity.class);
+
+                Intent intent = new Intent(CusMainActivity.this, FarmersListCusActivity.class);
                 startActivity(intent);
-*/
+
 
             }
         });
@@ -104,10 +106,10 @@ public class CusMainActivity extends AppCompatActivity {
         cardAdminNoticeCus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-/*
-                Intent intent = new Intent(CusMainActivity.this, ContactAdminActivity.class);
+
+                Intent intent = new Intent(CusMainActivity.this, AdminNoticeCusActivity.class);
                 startActivity(intent);
-*/
+
 
             }
         });
@@ -116,10 +118,10 @@ public class CusMainActivity extends AppCompatActivity {
         cardOrdersCus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-/*
+
                 Intent intent = new Intent(CusMainActivity.this, OrderListCusActivity.class);
                 startActivity(intent);
-*/
+
 
             }
         });
@@ -190,7 +192,7 @@ public class CusMainActivity extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
 
                         Log.d("Volley Error", "Error:" + error);
-                        Toasty.error(CusMainActivity.this, "No Internet Connection!", Toast.LENGTH_LONG).show();
+                        Toasty.error(CusMainActivity.this, "ইন্টারনেট কানেকশনের সমস্যা!", Toast.LENGTH_LONG).show();
                         loading.dismiss();
                     }
                 });
@@ -239,7 +241,7 @@ public class CusMainActivity extends AppCompatActivity {
             finishAffinity();
 
         } else {
-            Toasty.info(this, "Press once again to exit!",
+            Toasty.info(this, "অ্যাপ থেকে বের হয়ে যেতে আরেকবার ব্যাকে ক্লিক করুন!",
                     Toast.LENGTH_SHORT).show();
         }
         back_pressed = System.currentTimeMillis();
