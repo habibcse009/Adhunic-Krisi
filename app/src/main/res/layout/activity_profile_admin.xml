@@ -74,7 +74,7 @@
                         android:layout_marginTop="15dp"
                         android:layout_marginBottom="5dp"
                         android:gravity="center"
-                        android:text="Admin Information"
+                        android:text="ব্যাক্তিগত তথ্য"
                         android:textColor="@color/white"
                         android:textSize="25sp" />
 

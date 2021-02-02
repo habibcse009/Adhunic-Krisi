@@ -86,7 +86,7 @@
 
 
                         <EditText
-                            android:id="@+id/txt_editusernameAdmn"
+                            android:id="@+id/txt_editNoticeTitleAdmn"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -116,7 +116,7 @@
 
 
                         <EditText
-                            android:id="@+id/txt_editmobileAdmn"
+                            android:id="@+id/txt_editNoticeDetailsAdmn"
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
                             android:layout_weight="1"
@@ -138,7 +138,7 @@
                         android:orientation="vertical">
 
                         <Button
-                            android:id="@+id/btn_updateAdmn"
+                            android:id="@+id/btn_NoticeSubmitAdmn"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="30dp"
