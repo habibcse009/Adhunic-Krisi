@@ -173,7 +173,7 @@ public class CusMainActivity extends AppCompatActivity {
 
         //showing progress dialog
         loading = new ProgressDialog(CusMainActivity.this);
-        loading.setMessage("Please wait....");
+        loading.setMessage("অপেক্ষা করুন, লোডিং হচ্ছে...");
         loading.show();
 
 
@@ -222,7 +222,7 @@ public class CusMainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        txtWelcomeNameCus.setText(name);
+        txtWelcomeNameCus.setText(name+"...!");
 
     }
 

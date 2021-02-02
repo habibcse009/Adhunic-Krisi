@@ -11,13 +11,38 @@ com/project/adunik_krisi/ContactAdminActivity.java
  com.project.adunik_krisi.ContactAdminActivity$5
 com/project/adunik_krisi/Constant.java
  com.project.adunik_krisi.Constant
-com/project/adunik_krisi/Admin/Profile/EditProfileAdminActivity.java
- com.project.adunik_krisi.Admin.Profile.EditProfileAdminActivity
+com/project/adunik_krisi/Farmer/Profile/EditProfileFarmerActivity.java
+ com.project.adunik_krisi.Farmer.Profile.EditProfileFarmerActivity
 com/project/adunik_krisi/SplashActivity.java
  com.project.adunik_krisi.SplashActivity
  com.project.adunik_krisi.SplashActivity$1
 com/project/adunik_krisi/Admin/UsersList/FarmersListAdminActivity.java
  com.project.adunik_krisi.Admin.UsersList.FarmersListAdminActivity
+com/project/adunik_krisi/Farmer/FarmerMainActivity.java
+ com.project.adunik_krisi.Farmer.FarmerMainActivity
+com/project/adunik_krisi/Admin/Profile/EditProfileAdminActivity.java
+ com.project.adunik_krisi.Admin.Profile.EditProfileAdminActivity
+ com.project.adunik_krisi.Admin.Profile.EditProfileAdminActivity$1
+ com.project.adunik_krisi.Admin.Profile.EditProfileAdminActivity$1$1
+ com.project.adunik_krisi.Admin.Profile.EditProfileAdminActivity$1$2
+ com.project.adunik_krisi.Admin.Profile.EditProfileAdminActivity$2
+ com.project.adunik_krisi.Admin.Profile.EditProfileAdminActivity$3
+ com.project.adunik_krisi.Admin.Profile.EditProfileAdminActivity$4
+com/project/adunik_krisi/remote/ApiClient.java
+ com.project.adunik_krisi.remote.ApiClient
+com/project/adunik_krisi/BuildConfig.java
+ com.project.adunik_krisi.BuildConfig
+com/project/adunik_krisi/Admin/Profile/ProfileAdminActivity.java
+ com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity
+ com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity$1
+ com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity$2
+ com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity$3
+com/project/adunik_krisi/Customer/KrisiInfoCusActivity.java
+ com.project.adunik_krisi.Customer.KrisiInfoCusActivity
+com/project/adunik_krisi/Admin/AddNoticeAdminActivity.java
+ com.project.adunik_krisi.Admin.AddNoticeAdminActivity
+com/project/adunik_krisi/remote/ApiInterface.java
+ com.project.adunik_krisi.remote.ApiInterface
 com/project/adunik_krisi/Admin/AdminMainActivity.java
  com.project.adunik_krisi.Admin.AdminMainActivity
  com.project.adunik_krisi.Admin.AdminMainActivity$1
@@ -27,31 +52,6 @@ com/project/adunik_krisi/Admin/AdminMainActivity.java
  com.project.adunik_krisi.Admin.AdminMainActivity$5
  com.project.adunik_krisi.Admin.AdminMainActivity$6
  com.project.adunik_krisi.Admin.AdminMainActivity$7
-com/project/adunik_krisi/Customer/Profile/EditProfileCusActivity.java
- com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity
-com/project/adunik_krisi/remote/ApiClient.java
- com.project.adunik_krisi.remote.ApiClient
-com/project/adunik_krisi/BuildConfig.java
- com.project.adunik_krisi.BuildConfig
-com/project/adunik_krisi/Customer/CusMainActivity.java
- com.project.adunik_krisi.Customer.CusMainActivity
- com.project.adunik_krisi.Customer.CusMainActivity$1
- com.project.adunik_krisi.Customer.CusMainActivity$2
- com.project.adunik_krisi.Customer.CusMainActivity$3
- com.project.adunik_krisi.Customer.CusMainActivity$4
- com.project.adunik_krisi.Customer.CusMainActivity$5
- com.project.adunik_krisi.Customer.CusMainActivity$6
- com.project.adunik_krisi.Customer.CusMainActivity$7
- com.project.adunik_krisi.Customer.CusMainActivity$8
- com.project.adunik_krisi.Customer.CusMainActivity$9
-com/project/adunik_krisi/Customer/KrisiInfoCusActivity.java
- com.project.adunik_krisi.Customer.KrisiInfoCusActivity
-com/project/adunik_krisi/Admin/AddNoticeAdminActivity.java
- com.project.adunik_krisi.Admin.AddNoticeAdminActivity
-com/project/adunik_krisi/remote/ApiInterface.java
- com.project.adunik_krisi.remote.ApiInterface
-com/project/adunik_krisi/Customer/Profile/ProfileCusActivity.java
- com.project.adunik_krisi.Customer.Profile.ProfileCusActivity
 com/project/adunik_krisi/LoginActivity.java
  com.project.adunik_krisi.LoginActivity
  com.project.adunik_krisi.LoginActivity$1
@@ -64,16 +64,6 @@ com/project/adunik_krisi/LoginActivity.java
  com.project.adunik_krisi.LoginActivity$6
 com/project/adunik_krisi/Customer/Orders/OrderListCusActivity.java
  com.project.adunik_krisi.Customer.Orders.OrderListCusActivity
-com/project/adunik_krisi/Admin/Profile/ProfileAdminActivity.java
- com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity
-com/project/adunik_krisi/Admin/UsersList/CustomersListAdminActivity.java
- com.project.adunik_krisi.Admin.UsersList.CustomersListAdminActivity
-com/project/adunik_krisi/Customer/AdminNoticeCusActivity.java
- com.project.adunik_krisi.Customer.AdminNoticeCusActivity
-com/project/adunik_krisi/Farmer/FarmerMainActivity.java
- com.project.adunik_krisi.Farmer.FarmerMainActivity
-com/project/adunik_krisi/Farmer/Profile/EditProfileFarmerActivity.java
- com.project.adunik_krisi.Farmer.Profile.EditProfileFarmerActivity
 com/project/adunik_krisi/RegistrationActivity.java
  com.project.adunik_krisi.RegistrationActivity
  com.project.adunik_krisi.RegistrationActivity$1
@@ -89,3 +79,37 @@ com/project/adunik_krisi/RegistrationActivity.java
  com.project.adunik_krisi.RegistrationActivity$5
  com.project.adunik_krisi.RegistrationActivity$6
  com.project.adunik_krisi.RegistrationActivity$7
+com/project/adunik_krisi/Admin/UsersList/CustomersListAdminActivity.java
+ com.project.adunik_krisi.Admin.UsersList.CustomersListAdminActivity
+com/project/adunik_krisi/Customer/AdminNoticeCusActivity.java
+ com.project.adunik_krisi.Customer.AdminNoticeCusActivity
+com/project/adunik_krisi/Customer/Profile/ProfileCusActivity.java
+ com.project.adunik_krisi.Customer.Profile.ProfileCusActivity
+ com.project.adunik_krisi.Customer.Profile.ProfileCusActivity$1
+ com.project.adunik_krisi.Customer.Profile.ProfileCusActivity$2
+ com.project.adunik_krisi.Customer.Profile.ProfileCusActivity$3
+com/project/adunik_krisi/Customer/Profile/EditProfileCusActivity.java
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$1
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$1$1
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$1$2
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$2
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$2$1
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$2$2
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$3
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$3$1
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$3$2
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$4
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$5
+ com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$6
+com/project/adunik_krisi/Customer/CusMainActivity.java
+ com.project.adunik_krisi.Customer.CusMainActivity
+ com.project.adunik_krisi.Customer.CusMainActivity$1
+ com.project.adunik_krisi.Customer.CusMainActivity$2
+ com.project.adunik_krisi.Customer.CusMainActivity$3
+ com.project.adunik_krisi.Customer.CusMainActivity$4
+ com.project.adunik_krisi.Customer.CusMainActivity$5
+ com.project.adunik_krisi.Customer.CusMainActivity$6
+ com.project.adunik_krisi.Customer.CusMainActivity$7
+ com.project.adunik_krisi.Customer.CusMainActivity$8
+ com.project.adunik_krisi.Customer.CusMainActivity$9

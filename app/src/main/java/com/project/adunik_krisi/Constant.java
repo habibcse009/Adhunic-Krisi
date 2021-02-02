@@ -26,6 +26,7 @@ public class Constant {
 
     public static final String PROFILESP_URL = MAIN_URL + "/profileSp.php?mobile=";
     public static final String PROFILECUS_URL = MAIN_URL + "/profileCus.php?mobile=";
+    public static final String PROFILE_FARMER_URL = MAIN_URL + "/profileFarmer.php?mobile=";
     public static final String PROFILECADMN_URL = MAIN_URL + "/profileAdmn.php?mobile=";
     public static final String GET_REVIEW_URL = MAIN_URL + "/get_review.php?id=";
 
@@ -33,6 +34,7 @@ public class Constant {
 
     public static final String PROFILESP_UPDATE_URL = MAIN_URL + "/update_profileSp.php";
     public static final String PROFILECUS_UPDATE_URL = MAIN_URL + "/update_profileCus.php";
+    public static final String PROFILE_FARMER_UPDATE_URL = MAIN_URL + "/update_profileFarmer.php";
     public static final String PROFILEADMN_UPDATE_URL = MAIN_URL + "/update_profileAdmn.php";
     public static final String DELETE_PRODUCT_URL = MAIN_URL + "/delete_product.php";
 
