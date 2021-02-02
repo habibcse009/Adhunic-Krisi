@@ -24,11 +24,11 @@
         android:testOnly="true"
         android:theme="@style/Theme.Adunik_krisi"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity" />
+        <activity android:name="com.project.adunik_krisi.ViewAdminNoticesActivity" />
         <activity android:name="com.project.adunik_krisi.Admin.AddNoticeAdminActivity" />
         <activity android:name="com.project.adunik_krisi.Admin.UsersList.FarmersListAdminActivity" />
         <activity android:name="com.project.adunik_krisi.Admin.UsersList.CustomersListAdminActivity" />
-        <activity android:name="com.project.adunik_krisi.Customer.KrisiInfoCusActivity" />
-        <activity android:name="com.project.adunik_krisi.Customer.AdminNoticeCusActivity" />
         <activity android:name="com.project.adunik_krisi.Customer.FarmersList.FarmersListCusActivity" />
         <activity android:name="com.project.adunik_krisi.Customer.Orders.OrderListCusActivity" />
         <activity android:name="com.project.adunik_krisi.Farmer.Profile.EditProfileFarmerActivity" />

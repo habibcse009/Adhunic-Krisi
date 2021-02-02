@@ -19,8 +19,10 @@ import com.project.adunik_krisi.Constant;
 import com.project.adunik_krisi.Customer.FarmersList.FarmersListCusActivity;
 import com.project.adunik_krisi.Customer.Orders.OrderListCusActivity;
 import com.project.adunik_krisi.Customer.Profile.ProfileCusActivity;
+import com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity;
 import com.project.adunik_krisi.LoginActivity;
 import com.project.adunik_krisi.R;
+import com.project.adunik_krisi.ViewAdminNoticesActivity;
 import com.romainpiel.shimmer.Shimmer;
 import com.romainpiel.shimmer.ShimmerTextView;
 
@@ -107,7 +109,7 @@ public class CusMainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(CusMainActivity.this, AdminNoticeCusActivity.class);
+                Intent intent = new Intent(CusMainActivity.this, ViewAdminNoticesActivity.class);
                 startActivity(intent);
 
 
@@ -128,10 +130,10 @@ public class CusMainActivity extends AppCompatActivity {
         cardKrisiInfoCus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-/*
-                Intent intent = new Intent(CusMainActivity.this, OrderListCusActivity.class);
+
+                Intent intent = new Intent(CusMainActivity.this, KrisiInfoMainActivity.class);
                 startActivity(intent);
-*/
+
 
             }
         });
@@ -222,7 +224,7 @@ public class CusMainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        txtWelcomeNameCus.setText(name+"...!");
+        txtWelcomeNameCus.setText(name + "...!");
 
     }
 

@@ -13,7 +13,7 @@ import com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity;
 import com.project.adunik_krisi.Admin.UsersList.CustomersListAdminActivity;
 import com.project.adunik_krisi.Admin.UsersList.FarmersListAdminActivity;
 import com.project.adunik_krisi.Constant;
-import com.project.adunik_krisi.Customer.KrisiInfoCusActivity;
+import com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity;
 import com.project.adunik_krisi.LoginActivity;
 import com.project.adunik_krisi.R;
 import com.romainpiel.shimmer.Shimmer;
@@ -125,7 +125,7 @@ public class AdminMainActivity extends AppCompatActivity {
         cardKrisiInfoAdmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AdminMainActivity.this, KrisiInfoCusActivity.class);
+                Intent intent = new Intent(AdminMainActivity.this, KrisiInfoMainActivity.class);
                 startActivity(intent);
 
             }

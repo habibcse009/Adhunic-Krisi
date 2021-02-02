@@ -129,26 +129,26 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ha
 		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:15:9-50
 	android:usesCleartextTraffic
 		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:16:9-44
+activity#com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity
+ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:18:9-85
+	android:name
+		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:18:19-73
+activity#com.project.adunik_krisi.ViewAdminNoticesActivity
+ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:19:9-62
+	android:name
+		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:19:19-59
 activity#com.project.adunik_krisi.Admin.AddNoticeAdminActivity
-ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:18:9-75
+ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:20:9-66
 	android:name
-		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:18:19-63
+		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:20:19-63
 activity#com.project.adunik_krisi.Admin.UsersList.FarmersListAdminActivity
-ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:19:9-78
+ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:21:9-78
 	android:name
-		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:19:19-75
+		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:21:19-75
 activity#com.project.adunik_krisi.Admin.UsersList.CustomersListAdminActivity
-ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:20:9-80
+ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:22:9-80
 	android:name
-		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:20:19-77
-activity#com.project.adunik_krisi.Customer.KrisiInfoCusActivity
-ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:21:9-67
-	android:name
-		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:21:19-64
-activity#com.project.adunik_krisi.Customer.AdminNoticeCusActivity
-ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:22:9-69
-	android:name
-		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:22:19-66
+		ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:22:19-77
 activity#com.project.adunik_krisi.Customer.FarmersList.FarmersListCusActivity
 ADDED from H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:23:9-81
 	android:name

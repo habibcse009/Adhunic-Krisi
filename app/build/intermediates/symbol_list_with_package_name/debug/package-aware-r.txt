@@ -2396,7 +2396,6 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_notice_admin
 layout activity_admin_main
-layout activity_admin_notice_cus
 layout activity_contact_admin
 layout activity_cus_main
 layout activity_customers_list_admin
@@ -2407,7 +2406,7 @@ layout activity_farmer_main
 layout activity_farmers_list_admin
 layout activity_farmers_list_cus
 layout activity_image_select
-layout activity_krisi_info_cus
+layout activity_krisi_info_main
 layout activity_login
 layout activity_order_list_cus
 layout activity_profile_admin
@@ -2415,6 +2414,7 @@ layout activity_profile_cus
 layout activity_profile_farmer
 layout activity_registration
 layout activity_splash
+layout activity_view_admin_notices
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
