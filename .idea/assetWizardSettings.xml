@@ -19,8 +19,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_sells_report" />
-                            <entry key="sourceFile" value="H:\ClientProject\Sifat_Resourse\icon\sells_report.svg" />
+                            <entry key="outputName" value="ic_headhunting" />
+                            <entry key="sourceFile" value="H:\ClientProject\Sifat_Resourse\icon\headhunting.svg" />
                           </map>
                         </option>
                       </PersistentState>

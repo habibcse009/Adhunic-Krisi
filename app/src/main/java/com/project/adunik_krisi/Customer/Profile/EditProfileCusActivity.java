@@ -89,11 +89,11 @@ public class EditProfileCusActivity extends AppCompatActivity {
         extLocationCus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final String[] cityList = {"Dhaka", "Chittagong", "Sylhet", "Rajshahi", "Barishal", "Khulna", "Rangpur", "Mymensingh"};
+                final String[] cityList = {"ঢাকা", "চট্টগ্রাম", "সিলেট", "রাজশাহী", "বরিশাল", "খুলনা", "রংপুর", "ময়মনসিং"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(EditProfileCusActivity.this);
                 builder.setTitle("বিভাগ নির্ধারণ করুন");
-                builder.setIcon(R.drawable.ic_location);
+                //builder.setIcon(R.drawable.ic_location);
 
 
                 builder.setCancelable(false);
@@ -103,42 +103,42 @@ public class EditProfileCusActivity extends AppCompatActivity {
                         switch (position) {
                             case 0:
 
-                                extLocationCus.setText("Dhaka");
+                                extLocationCus.setText("ঢাকা");
                                 break;
 
                             case 1:
 
-                                extLocationCus.setText("Chittagong");
+                                extLocationCus.setText("চট্টগ্রাম");
                                 break;
 
                             case 2:
 
-                                extLocationCus.setText("Sylhet");
+                                extLocationCus.setText("সিলেট");
                                 break;
 
                             case 3:
 
-                                extLocationCus.setText("Rajshahi");
+                                extLocationCus.setText("রাজশাহী");
                                 break;
 
                             case 4:
 
-                                extLocationCus.setText("Barishal");
+                                extLocationCus.setText("বরিশাল");
                                 break;
 
                             case 5:
 
-                                extLocationCus.setText("Khulna");
+                                extLocationCus.setText("খুলনা");
                                 break;
 
                             case 6:
 
-                                extLocationCus.setText("Rangpur");
+                                extLocationCus.setText("রংপুর");
                                 break;
 
                             case 7:
 
-                                extLocationCus.setText("Mymensingh");
+                                extLocationCus.setText("ময়মনসিং");
                                 break;
                         }
                     }

@@ -94,7 +94,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                final String[] typeList = {"Customer", "Farmer", "Admin"};
+                final String[] typeList = {"ক্রেতা", "কৃষক", "এডমিন"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
                 builder.setTitle("একাউন্টের ধরন নির্ধারণ করুন");
@@ -199,7 +199,7 @@ public class LoginActivity extends AppCompatActivity {
 
                             Log.d("Response", response);
                             //If we are getting success from server
-                            if (myResponse.equals("admin")) {
+                            if (myResponse.equals("এডমিন")) {
                                 //Creating a shared preference
                                 sharedPreferences = LoginActivity.this.getSharedPreferences(Constant.SHARED_PREF_NAME, Context.MODE_PRIVATE);
 
@@ -229,7 +229,7 @@ public class LoginActivity extends AppCompatActivity {
                                 startActivity(intent);
 
 
-                            } else if (myResponse.equals("customer")) {
+                            } else if (myResponse.equals("ক্রেতা")) {
                                 //Creating a shared preference
                                 sharedPreferences = LoginActivity.this.getSharedPreferences(Constant.SHARED_PREF_NAME, Context.MODE_PRIVATE);
 
@@ -259,12 +259,13 @@ public class LoginActivity extends AppCompatActivity {
                                 startActivity(intent);
 
 
-                            } else if (myResponse.equalsIgnoreCase("farmer")) {
+                            } else if (myResponse.equalsIgnoreCase("কৃষক")) {
                                 //Creating a shared preference
                                 sharedPreferences = LoginActivity.this.getSharedPreferences(Constant.SHARED_PREF_NAME, Context.MODE_PRIVATE);
 
                                 //Creating editor to store values to shared preferences
-                                SharedPreferences.Editor editor = sharedPreferences.edit();String account_type = "farmer";
+                                SharedPreferences.Editor editor = sharedPreferences.edit();
+                                String account_type = "কৃষক";
                                 //Adding values to editor
                                 editor.putString(Constant.AC_TYPE_SHARED_PREF, account_type);
                                 editor.putString(Constant.CELL_SHARED_PREF, userCell);
@@ -332,9 +333,6 @@ public class LoginActivity extends AppCompatActivity {
         }
 
     }
-
-
-
 
 
 }

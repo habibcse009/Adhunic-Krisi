@@ -1715,6 +1715,7 @@ drawable ic_find_ambulance
 drawable ic_find_doctor
 drawable ic_find_hospital
 drawable ic_gender
+drawable ic_headhunting
 drawable ic_help
 drawable ic_home_black_24dp
 drawable ic_hospital
@@ -2029,6 +2030,9 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id etxt_search_Cus
+id etxt_search_Farmer
+id etxt_search_FarmerCUS
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2070,6 +2074,7 @@ id image
 id imgIcon
 id img_contactus
 id img_layout
+id img_no_data
 id info
 id invisible
 id italic
@@ -2087,6 +2092,10 @@ id line1
 id line3
 id linear
 id listMode
+id listView_Cus
+id listView_Farmer
+id listView_FarmerCUS
+id list_icon
 id list_item
 id location
 id main
@@ -2326,6 +2335,12 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_address
+id user_division
+id user_email
+id user_gender
+id user_mobile
+id user_name
 id viewStrip
 id view_offset_helper
 id visible
@@ -2415,6 +2430,7 @@ layout activity_profile_farmer
 layout activity_registration
 layout activity_splash
 layout activity_view_admin_notices
+layout cus_list_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2432,6 +2448,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_layout
+layout farmer_list_item
 layout layout_dialog
 layout ms__list_item
 layout mtrl_alert_dialog

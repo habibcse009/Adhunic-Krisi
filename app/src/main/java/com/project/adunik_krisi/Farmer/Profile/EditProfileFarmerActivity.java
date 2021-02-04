@@ -89,11 +89,11 @@ public class EditProfileFarmerActivity extends AppCompatActivity {
         extLocationFarmer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final String[] cityList = {"Dhaka", "Chittagong", "Sylhet", "Rajshahi", "Barishal", "Khulna", "Rangpur", "Mymensingh"};
+                final String[] cityList = {"ঢাকা", "চট্টগ্রাম", "সিলেট", "রাজশাহী", "বরিশাল", "খুলনা", "রংপুর", "ময়মনসিং"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(EditProfileFarmerActivity.this);
                 builder.setTitle("বিভাগ নির্ধারণ করুন");
-                builder.setIcon(R.drawable.ic_location);
+                //builder.setIcon(R.drawable.ic_location);
 
 
                 builder.setCancelable(false);
@@ -103,42 +103,42 @@ public class EditProfileFarmerActivity extends AppCompatActivity {
                         switch (position) {
                             case 0:
 
-                                extLocationFarmer.setText("Dhaka");
+                                extLocationFarmer.setText("ঢাকা");
                                 break;
 
                             case 1:
 
-                                extLocationFarmer.setText("Chittagong");
+                                extLocationFarmer.setText("চট্টগ্রাম");
                                 break;
 
                             case 2:
 
-                                extLocationFarmer.setText("Sylhet");
+                                extLocationFarmer.setText("সিলেট");
                                 break;
 
                             case 3:
 
-                                extLocationFarmer.setText("Rajshahi");
+                                extLocationFarmer.setText("রাজশাহী");
                                 break;
 
                             case 4:
 
-                                extLocationFarmer.setText("Barishal");
+                                extLocationFarmer.setText("বরিশাল");
                                 break;
 
                             case 5:
 
-                                extLocationFarmer.setText("Khulna");
+                                extLocationFarmer.setText("খুলনা");
                                 break;
 
                             case 6:
 
-                                extLocationFarmer.setText("Rangpur");
+                                extLocationFarmer.setText("রংপুর");
                                 break;
 
                             case 7:
 
-                                extLocationFarmer.setText("Mymensingh");
+                                extLocationFarmer.setText("ময়মনসিং");
                                 break;
                         }
                     }

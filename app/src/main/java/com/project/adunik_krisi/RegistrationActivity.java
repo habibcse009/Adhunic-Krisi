@@ -123,7 +123,7 @@ public class RegistrationActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                final String[] typeList = {"Customer", "Farmer"};
+                final String[] typeList = {"ক্রেতা", "কৃষক"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(RegistrationActivity.this);
                 builder.setTitle("একাউন্টের ধরন নির্ধারণ করুন");
@@ -169,7 +169,7 @@ public class RegistrationActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                final String[] cityList = {"Dhaka", "Chittagong", "Sylhet", "Rajshahi", "Barishal", "Khulna", "Rangpur", "Mymensingh"};
+                final String[] cityList = {"ঢাকা", "চট্টগ্রাম", "সিলেট", "রাজশাহী", "বরিশাল", "খুলনা", "রংপুর", "ময়মনসিং"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(RegistrationActivity.this);
                 builder.setTitle("বিভাগ নির্ধারণ করুন");
@@ -183,42 +183,42 @@ public class RegistrationActivity extends AppCompatActivity {
                         switch (position) {
                             case 0:
 
-                                etxtLocation.setText("Dhaka");
+                                etxtLocation.setText("ঢাকা");
                                 break;
 
                             case 1:
 
-                                etxtLocation.setText("Chittagong");
+                                etxtLocation.setText("চট্টগ্রাম");
                                 break;
 
                             case 2:
 
-                                etxtLocation.setText("Sylhet");
+                                etxtLocation.setText("সিলেট");
                                 break;
 
                             case 3:
 
-                                etxtLocation.setText("Rajshahi");
+                                etxtLocation.setText("রাজশাহী");
                                 break;
 
                             case 4:
 
-                                etxtLocation.setText("Barishal");
+                                etxtLocation.setText("বরিশাল");
                                 break;
 
                             case 5:
 
-                                etxtLocation.setText("Khulna");
+                                etxtLocation.setText("খুলনা");
                                 break;
 
                             case 6:
 
-                                etxtLocation.setText("Rangpur");
+                                etxtLocation.setText("রংপুর");
                                 break;
 
                             case 7:
 
-                                etxtLocation.setText("Mymensingh");
+                                etxtLocation.setText("ময়মনসিং");
                                 break;
                         }
                     }
