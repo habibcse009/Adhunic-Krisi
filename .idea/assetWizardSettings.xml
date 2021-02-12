@@ -19,8 +19,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_file" />
-                            <entry key="sourceFile" value="H:\ClientProject\Sifat_Resourse\icon\file.svg" />
+                            <entry key="outputName" value="ic_bd_area" />
+                            <entry key="sourceFile" value="H:\ClientProject\Sifat_Resourse\icon\bd_area.svg" />
                           </map>
                         </option>
                       </PersistentState>

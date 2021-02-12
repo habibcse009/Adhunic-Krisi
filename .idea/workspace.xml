@@ -11,9 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb760260-d235-4bed-af5d-7a18fbc35a05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_file.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/notice_list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/project/adunik_krisi/KrisiInformation/DhanerInfoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/project/adunik_krisi/KrisiInformation/DhanerJatActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/project/adunik_krisi/KrisiInformation/DhanerProkriyakoronActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/project/adunik_krisi/KrisiInformation/DhanerSessionActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_bd_area.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_fosol_prokriyakoron.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_modern_rice_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_web_link.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dhaner_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dhaner_jat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dhaner_prokriyakoron.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dhaner_session.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -24,7 +35,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -49,8 +59,9 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/adunik_krisi/ViewAdminNoticesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/adunik_krisi/ViewAdminNoticesActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_view_admin_notices.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_view_admin_notices.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/project/adunik_krisi/KrisiInformation/KrisiInfoMainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/project/adunik_krisi/KrisiInformation/KrisiInfoMainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_krisi_info_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_krisi_info_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +141,9 @@
       <recent name="com.project.adunik_krisi.Farmer" />
       <recent name="com.project.adunik_krisi.Customer" />
       <recent name="com.project.adunik_krisi.Admin" />
+    </key>
+    <key name="android.template.342067715">
+      <recent name="com.project.adunik_krisi.KrisiInformation" />
     </key>
   </component>
   <component name="RunManager">
@@ -272,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613069030561</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="view notice">
+      <created>1613111095042</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613111095042</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,7 +306,8 @@
     <MESSAGE value="Farmer profile and edit profile added" />
     <MESSAGE value="Farmer and cus list added, bug fixed" />
     <MESSAGE value="add notice" />
-    <option name="LAST_COMMIT_MESSAGE" value="add notice" />
+    <MESSAGE value="view notice" />
+    <option name="LAST_COMMIT_MESSAGE" value="view notice" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612280185324">
@@ -296,14 +318,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1613108913521" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1613069011731">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1613111081555">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613069011731" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1613110815444">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613111081555" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1613155907830">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613110815444" />
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1613155907830" />
     <state width="1491" height="168" key="GridCell.Tab.0.bottom" timestamp="1613068386135">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -324,18 +346,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="447" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1608584857560" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613069069732">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613111102943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613069069732" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613111102943" />
     <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1611941354053">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="584" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1611941354053" />
-    <state width="496" height="72" key="javadoc.popup.new" timestamp="1613110995785">
+    <state width="496" height="68" key="javadoc.popup.new" timestamp="1613157633751">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="496" height="72" key="javadoc.popup.new/0.0.1536.824@0.0.1536.824" timestamp="1613110995785" />
+    <state width="496" height="68" key="javadoc.popup.new/0.0.1536.824@0.0.1536.824" timestamp="1613157633751" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1612462791616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

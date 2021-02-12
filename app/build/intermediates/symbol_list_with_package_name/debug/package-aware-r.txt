@@ -1693,6 +1693,7 @@ drawable ic_admin_notice
 drawable ic_ambulance_list
 drawable ic_applogo
 drawable ic_arrow_down
+drawable ic_bd_area
 drawable ic_bg_one
 drawable ic_bg_three
 drawable ic_bg_two
@@ -1715,6 +1716,7 @@ drawable ic_file
 drawable ic_find_ambulance
 drawable ic_find_doctor
 drawable ic_find_hospital
+drawable ic_fosol_prokriyakoron
 drawable ic_gender
 drawable ic_headhunting
 drawable ic_help
@@ -1732,6 +1734,7 @@ drawable ic_location
 drawable ic_lock
 drawable ic_logout
 drawable ic_main_profile
+drawable ic_modern_rice_list
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1752,10 +1755,13 @@ drawable ic_order
 drawable ic_orders
 drawable ic_payments
 drawable ic_profile
+drawable ic_rice
 drawable ic_search
 drawable ic_search_item
 drawable ic_sells_report
 drawable ic_sp_order
+drawable ic_spring
+drawable ic_web_link
 drawable image_placeholder
 drawable loading
 drawable logo_circle
@@ -2086,6 +2092,12 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id krisi_info_1
+id krisi_info_2
+id krisi_info_3
+id krisi_info_4
+id krisi_info_5
+id krisi_info_6
 id labeled
 id largeLabel
 id layout
@@ -2102,6 +2114,11 @@ id listView_Farmer
 id listView_FarmerCUS
 id listView_ViewNotice
 id list_icon
+id list_icon2
+id list_icon3
+id list_icon4
+id list_icon5
+id list_icon6
 id list_item
 id location
 id main
@@ -2302,6 +2319,7 @@ id txtNameAdmn
 id txtNameCus
 id txtNameFarmer
 id txtTitle
+id txtTitleKrisiInfo
 id txtTitlesignup
 id txtUsernameAdmn
 id txtUsernameCus
@@ -2420,6 +2438,10 @@ layout activity_admin_main
 layout activity_contact_admin
 layout activity_cus_main
 layout activity_customers_list_admin
+layout activity_dhaner_info
+layout activity_dhaner_jat
+layout activity_dhaner_prokriyakoron
+layout activity_dhaner_session
 layout activity_edit_profile_admin
 layout activity_edit_profile_cus
 layout activity_edit_profile_farmer
