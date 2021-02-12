@@ -1711,6 +1711,7 @@ drawable ic_doctor_list
 drawable ic_donation_tips
 drawable ic_error_outline_white_24dp
 drawable ic_farmer_list
+drawable ic_file
 drawable ic_find_ambulance
 drawable ic_find_doctor
 drawable ic_find_hospital
@@ -1752,6 +1753,7 @@ drawable ic_orders
 drawable ic_payments
 drawable ic_profile
 drawable ic_search
+drawable ic_search_item
 drawable ic_sells_report
 drawable ic_sp_order
 drawable image_placeholder
@@ -1833,6 +1835,8 @@ id META
 id MultiplePulse
 id MultiplePulseRing
 id NO_DEBUG
+id NoticeList_descrition
+id NoticeList_title
 id Pulse
 id PulseRing
 id RotatingCircle
@@ -2033,6 +2037,7 @@ id enterAlwaysCollapsed
 id etxt_search_Cus
 id etxt_search_Farmer
 id etxt_search_FarmerCUS
+id etxt_search_ViewNotice
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2095,6 +2100,7 @@ id listMode
 id listView_Cus
 id listView_Farmer
 id listView_FarmerCUS
+id listView_ViewNotice
 id list_icon
 id list_item
 id location
@@ -2479,6 +2485,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout notice_list_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
