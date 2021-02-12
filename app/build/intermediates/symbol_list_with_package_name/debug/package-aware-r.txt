@@ -1678,6 +1678,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dhan
 drawable dialog_bg
 drawable fosol
 drawable gradiant
@@ -2201,6 +2202,7 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
+id scl
 id screen
 id scroll
 id scrollIndicatorDown

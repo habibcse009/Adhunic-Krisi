@@ -1,9 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_five"
     tools:context=".KrisiInformation.DhanerInfoActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/scl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:fitsSystemWindows="true"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/dhan" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_rice" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"
+                        android:text="বাংলাদেশের ধানের বিবরণ... "
+                        android:textAlignment="textStart"
+                        android:textColor="#FFF"
+                        android:textSize="23sp"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="ধান (বৈজ্ঞানিক নাম Oryza sativa, Oryza glaberrima ) Graminae/Poaceae গোত্রের দানাশস্যের উদ্ভিদ । ধান উষ্ণ জলবায়ুতে, বিশেষত পূর্ব-এশিয়ায় ব্যাপক চাষ হয়। প্রাচীন চীনা ভাষার Ou-liz শব্দটি আরবিতে Oruz ও গ্রিক ভাষায় Oryza হয়ে শেষে Ritz ও Rice হয়েছে। ধান বা ধান্য শব্দের উৎপত্তি অজ্ঞাত। ধানবীজ বা চাল সুপ্রাচীনকাল থেকে লক্ষ লক্ষ মানুষের প্রধান খাদ্য। চীন ও জাপানের রাজাদের পৃষ্ঠপোষকতায় প্রায় ১০,০০০ বছর আগে ধান চাষ শুরু হয়েছিল বলে জানা যায়। ব্যাপক অভিযোজন ক্ষমতার দরুন ধান উত্তর কোরিয়া থেকে দক্ষিণ অস্ট্রেলিয়া, এমনকি সমুদ্রপৃষ্ঠ থেকে ২,৬০০ মিটার উচ্চতায়ও (জুমলা, নেপাল) জন্মায়। \n
+বাংলাদেশে আউশ, আমন এবং বোরো এই তিন মৌসুমে ধান চাষ করা হয়। \n
+ধান সাধারণত একবর্ষজীবী উদ্ভিদ, কোন কোন অঞ্চলে বিশেষ করে নাতিশীতোষ্ণ অঞ্চলে ধান দ্বি-বর্ষজীবী উদ্ভিদ হিসেবে চাষ করা হয়। ধানকে ৩০ বছর পর্যন্ত চাষ করা যায়। ধানের বৃদ্ধি ও উৎপাদন অনেকসময় মাটির উর্বরতার উপর নির্ভর করে থাকে।\n
+ধান গাছ সাধারণত ১-১.৮ মিটার (৩.৩-৫.৯ ফুট) পর্যন্ত লম্বা হয়ে থাকে। এর পাতা সরু, লম্বা আকৃতির হয়। পাতা ৫০-১০০ সে.মি. (২০-৩৯ ইঞ্চি) পর্যন্ত লম্বা ও ২-২.৫ সে.মি. (০.৭৯-০.৯৮ ইঞ্চি) প্রশস্ত হয়ে থাকে। সাধারণত বায়ুর সাহায্যে এর পরাগায়ন হয়ে থাকে। পুষ্পমঞ্জরীতে ফুলগুলো শাখান্বিত অবস্থায় উপর থেকে নীচ পর্যন্ত সাজানো থাকে। এক একটি পুষ্পমঞ্জরী ৩০-৫০ সেমি (১০-২০ ইঞ্চি) লম্বা হয়ে থাকে। বীজকে খাবার হিসেবে খাওয়া হয়, একে শষ্য বলা হয়। বীজ সাধারণত ৫-১২ মি.মি. লম্বা ও ২-৩ মি.মি. পুরু হয়ে থাকে।\n
+যেসব অঞ্চলে বৃষ্টিপাত বেশি কিংবা নিচু জমি, সেসব অঞ্চলে ধান ভালো হয়। পাহাড় কিংবা পাহাড়ের ঢালেও এর চাষ হয়ে থাকে। ধান চাষ অত্যন্ত শ্রমনির্ভর। অনেক শ্রমিক প্রয়োজন হয়, এ কারণে যেসব এলাকায় শ্রমিক খরচ কম সেসকল অঞ্চলে ধান চাষ করা সহজ। এর মাতৃ উদ্ভিদের বাসস্থান এশিয়া এবং আফ্রিকা। \n
+ধান চাষ করতে হলে প্রথমে বীজতলা তৈরী করতে হয়, সেখানে বীজ ছিটিয়ে রেখে কয়েকদিন সেচ দিতে হয় তারপর ছোট চারা তৈরী হলে সেগুলোকে তুলে প্রধান জমিতে রোপন করা হয়। তাছাড়া সরাসরি বীজ প্রধান জমিতে ছিটিয়েও চাষ করা হয়। ধান চাষে প্রচুর পানির দরকার হয়। গাছের গোড়ায় অনেকদিন পর্যন্ত পানি জমিয়ে রাখা হয়। সাধারণত নল তৈরী করে, আইল বানিয়ে পানি ধরে রাখা হয়। আগাছা, রোগবালাই ও পোকামাকড় এর কারণে ধানের উৎপাদন কমে যেতে পারে। ধাড়ি ইঁদুর ধানের অন্যতম প্রধান শত্রু। সাধারণত জমিতে পানি আটকে রেখে আগাছাসহ এর উৎপাত কমানো যেতে পারে। \n
+"
+                    android:textAlignment="gravity"
+                    android:textColor="#000"
+                    android:textSize="23sp"
+                    tools:ignore="RtlCompat" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_rice" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"
+                        android:text="ধান থেকে উৎপন্ন দ্রব্যকে চাল বলে। এই চাল থেকে তৈরী হয় ভাত যা বাঙালির প্রধান খাদ্য। "
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/Dark_green"
+                        android:textSize="23sp"
+                        tools:ignore="RtlCompat" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>

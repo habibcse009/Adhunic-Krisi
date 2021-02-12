@@ -21,7 +21,7 @@
 13-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:12:22-77
 14
 15    <application
-15-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:9:5-48:19
+15-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:9:5-52:19
 16        android:allowBackup="true"
 16-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:10:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -41,115 +41,127 @@
 25-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:15:9-50
 26        android:usesCleartextTraffic="true" >
 26-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:16:9-44
-27        <activity android:name="com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity" />
-27-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:18:9-85
-27-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:18:19-73
-28        <activity android:name="com.project.adunik_krisi.ViewAdminNoticesActivity" />
-28-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:19:9-62
-28-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:19:19-59
-29        <activity android:name="com.project.adunik_krisi.Admin.AddNoticeAdminActivity" />
-29-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:20:9-66
-29-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:20:19-63
-30        <activity android:name="com.project.adunik_krisi.Admin.UsersList.FarmersListAdminActivity" />
-30-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:21:9-78
-30-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:21:19-75
-31        <activity android:name="com.project.adunik_krisi.Admin.UsersList.CustomersListAdminActivity" />
-31-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:22:9-80
-31-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:22:19-77
-32        <activity android:name="com.project.adunik_krisi.Customer.FarmersList.FarmersListCusActivity" />
-32-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:23:9-81
-32-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:23:19-78
-33        <activity android:name="com.project.adunik_krisi.Customer.Orders.OrderListCusActivity" />
-33-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:24:9-74
-33-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:24:19-71
-34        <activity android:name="com.project.adunik_krisi.Farmer.Profile.EditProfileFarmerActivity" />
+27        <activity android:name="com.project.adunik_krisi.KrisiInformation.DhanerJatActivity" />
+27-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:18:9-81
+27-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:18:19-69
+28        <activity android:name="com.project.adunik_krisi.KrisiInformation.DhanerProkriyakoronActivity" />
+28-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:19:9-82
+28-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:19:19-79
+29        <activity android:name="com.project.adunik_krisi.KrisiInformation.DhanerSessionActivity" />
+29-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:20:9-76
+29-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:20:19-73
+30        <activity android:name="com.project.adunik_krisi.KrisiInformation.DhanerInfoActivity" />
+30-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:21:9-73
+30-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:21:19-70
+31        <activity android:name="com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity" />
+31-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:22:9-76
+31-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:22:19-73
+32        <activity android:name="com.project.adunik_krisi.ViewAdminNoticesActivity" />
+32-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:23:9-62
+32-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:23:19-59
+33        <activity android:name="com.project.adunik_krisi.Admin.AddNoticeAdminActivity" />
+33-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:24:9-66
+33-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:24:19-63
+34        <activity android:name="com.project.adunik_krisi.Admin.UsersList.FarmersListAdminActivity" />
 34-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:25:9-78
 34-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:25:19-75
-35        <activity android:name="com.project.adunik_krisi.Farmer.Profile.ProfileFarmerActivity" />
-35-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:26:9-74
-35-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:26:19-71
-36        <activity android:name="com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity" />
-36-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:27:9-77
-36-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:27:19-74
-37        <activity android:name="com.project.adunik_krisi.Customer.Profile.ProfileCusActivity" />
-37-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:28:9-73
-37-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:28:19-70
-38        <activity android:name="com.project.adunik_krisi.Admin.Profile.EditProfileAdminActivity" />
-38-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:29:9-76
-38-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:29:19-73
-39        <activity android:name="com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity" />
-39-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:30:9-72
-39-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:30:19-69
-40        <activity android:name="com.project.adunik_krisi.Farmer.FarmerMainActivity" />
-40-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:31:9-63
-40-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:31:19-60
-41        <activity android:name="com.project.adunik_krisi.Customer.CusMainActivity" />
-41-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:32:9-62
-41-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:32:19-59
-42        <activity android:name="com.project.adunik_krisi.Admin.AdminMainActivity" />
-42-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:33:9-61
-42-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:33:19-58
-43        <activity android:name="com.project.adunik_krisi.ContactAdminActivity" />
-43-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:34:9-58
-43-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:34:19-55
-44        <activity android:name="com.project.adunik_krisi.RegistrationActivity" />
-44-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:35:9-58
-44-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:35:19-55
-45        <activity android:name="com.project.adunik_krisi.LoginActivity" />
-45-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:36:9-51
-45-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:36:19-48
-46        <activity android:name="com.project.adunik_krisi.SplashActivity" >
-46-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:37:9-43:20
-46-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:37:19-49
-47            <intent-filter>
-47-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:38:13-42:29
-48                <action android:name="android.intent.action.MAIN" />
-48-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:39:17-69
-48-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:39:25-66
-49
-50                <category android:name="android.intent.category.LAUNCHER" />
-50-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:41:17-77
-50-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:41:27-74
-51            </intent-filter>
-52        </activity>
+35        <activity android:name="com.project.adunik_krisi.Admin.UsersList.CustomersListAdminActivity" />
+35-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:26:9-80
+35-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:26:19-77
+36        <activity android:name="com.project.adunik_krisi.Customer.FarmersList.FarmersListCusActivity" />
+36-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:27:9-81
+36-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:27:19-78
+37        <activity android:name="com.project.adunik_krisi.Customer.Orders.OrderListCusActivity" />
+37-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:28:9-74
+37-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:28:19-71
+38        <activity android:name="com.project.adunik_krisi.Farmer.Profile.EditProfileFarmerActivity" />
+38-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:29:9-78
+38-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:29:19-75
+39        <activity android:name="com.project.adunik_krisi.Farmer.Profile.ProfileFarmerActivity" />
+39-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:30:9-74
+39-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:30:19-71
+40        <activity android:name="com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity" />
+40-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:31:9-77
+40-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:31:19-74
+41        <activity android:name="com.project.adunik_krisi.Customer.Profile.ProfileCusActivity" />
+41-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:32:9-73
+41-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:32:19-70
+42        <activity android:name="com.project.adunik_krisi.Admin.Profile.EditProfileAdminActivity" />
+42-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:33:9-76
+42-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:33:19-73
+43        <activity android:name="com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity" />
+43-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:34:9-72
+43-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:34:19-69
+44        <activity android:name="com.project.adunik_krisi.Farmer.FarmerMainActivity" />
+44-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:35:9-63
+44-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:35:19-60
+45        <activity android:name="com.project.adunik_krisi.Customer.CusMainActivity" />
+45-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:36:9-62
+45-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:36:19-59
+46        <activity android:name="com.project.adunik_krisi.Admin.AdminMainActivity" />
+46-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:37:9-61
+46-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:37:19-58
+47        <activity android:name="com.project.adunik_krisi.ContactAdminActivity" />
+47-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:38:9-58
+47-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:38:19-55
+48        <activity android:name="com.project.adunik_krisi.RegistrationActivity" />
+48-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:39:9-58
+48-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:39:19-55
+49        <activity android:name="com.project.adunik_krisi.LoginActivity" />
+49-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:40:9-51
+49-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:40:19-48
+50        <activity android:name="com.project.adunik_krisi.SplashActivity" >
+50-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:41:9-47:20
+50-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:41:19-49
+51            <intent-filter>
+51-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:42:13-46:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:43:17-69
+52-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:43:25-66
 53
-54        <uses-library
-54-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:45:9-47:40
-55            android:name="org.apache.http.legacy"
-55-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:46:13-50
-56            android:required="false" />
-56-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:47:13-37
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:45:17-77
+54-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:45:27-74
+55            </intent-filter>
+56        </activity>
 57
-58        <activity
-58-->[com.karumi:dexter:5.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d88cb64b4e69d14ab07a361df3b9451a\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
-59            android:name="com.karumi.dexter.DexterActivity"
-59-->[com.karumi:dexter:5.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d88cb64b4e69d14ab07a361df3b9451a\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
-60            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-60-->[com.karumi:dexter:5.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d88cb64b4e69d14ab07a361df3b9451a\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
-61        <activity
-61-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:15:9-17:67
-62            android:name="in.mayanknagwanshi.imagepicker.ImageSelectActivity"
-62-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:16:13-78
-63            android:theme="@style/Theme.AppCompat.Light.Dialog" />
-63-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:17:13-64
-64
-65        <provider
-65-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:19:9-27:20
-66            android:name="androidx.core.content.FileProvider"
-66-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:20:13-62
-67            android:authorities="com.project.adunik_krisi.provider"
-67-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:21:13-60
-68            android:exported="false"
-68-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:22:13-37
-69            android:grantUriPermissions="true" >
-69-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:23:13-47
-70            <meta-data
-70-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:24:13-26:58
-71                android:name="android.support.FILE_PROVIDER_PATHS"
-71-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:25:17-67
-72                android:resource="@xml/provider_paths" />
-72-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:26:17-55
-73        </provider>
-74    </application>
-75
-76</manifest>
+58        <uses-library
+58-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:49:9-51:40
+59            android:name="org.apache.http.legacy"
+59-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:50:13-50
+60            android:required="false" />
+60-->H:\ClientProject\Sifat_Resourse\App_Code\Adunik_Krisi\app\src\main\AndroidManifest.xml:51:13-37
+61
+62        <activity
+62-->[com.karumi:dexter:5.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d88cb64b4e69d14ab07a361df3b9451a\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+63            android:name="com.karumi.dexter.DexterActivity"
+63-->[com.karumi:dexter:5.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d88cb64b4e69d14ab07a361df3b9451a\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+64            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+64-->[com.karumi:dexter:5.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d88cb64b4e69d14ab07a361df3b9451a\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+65        <activity
+65-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:15:9-17:67
+66            android:name="in.mayanknagwanshi.imagepicker.ImageSelectActivity"
+66-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:16:13-78
+67            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+67-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:17:13-64
+68
+69        <provider
+69-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:19:9-27:20
+70            android:name="androidx.core.content.FileProvider"
+70-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:20:13-62
+71            android:authorities="com.project.adunik_krisi.provider"
+71-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:21:13-60
+72            android:exported="false"
+72-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:22:13-37
+73            android:grantUriPermissions="true" >
+73-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:23:13-47
+74            <meta-data
+74-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:24:13-26:58
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:25:17-67
+76                android:resource="@xml/provider_paths" />
+76-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:26:17-55
+77        </provider>
+78    </application>
+79
+80</manifest>

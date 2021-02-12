@@ -24,6 +24,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.Adunik_krisi"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.project.adunik_krisi.KrisiInformation.DhanerJatActivity" />
+        <activity android:name="com.project.adunik_krisi.KrisiInformation.DhanerProkriyakoronActivity" />
+        <activity android:name="com.project.adunik_krisi.KrisiInformation.DhanerSessionActivity" />
+        <activity android:name="com.project.adunik_krisi.KrisiInformation.DhanerInfoActivity" />
         <activity android:name="com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity" />
         <activity android:name="com.project.adunik_krisi.ViewAdminNoticesActivity" />
         <activity android:name="com.project.adunik_krisi.Admin.AddNoticeAdminActivity" />

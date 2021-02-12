@@ -420,6 +420,10 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_dhaner_jat.xml"
     },
     {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dhan.jpg.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\dhan.jpg"
+    },
+    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_welcomebackground.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\welcomebackground.png"
     },
