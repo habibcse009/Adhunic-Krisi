@@ -1,9 +1,198 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_five"
     tools:context=".KrisiInformation.DhanerSessionActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/scl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:fitsSystemWindows="true"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/dhan" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_rice" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"
+                        android:text="ধানের জন্যে স্বাভাবিক জলবায়ু... "
+                        android:textAlignment="textStart"
+                        android:textColor="#FFF"
+                        android:textSize="23sp"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="ধান মূলত ক্রান্তিয় মৌসুমি জলবায়ু অঞ্চলের ফসল। \n
+বৃষ্টিপাতঃ ধান চাষের জন্য প্রচুর বৃষ্টিপাতের প্রয়োজন। সাধারণভাবে ১৫০ থেকে ২৫০ সেন্টিমিটার বৃষ্টিপাতের প্রয়োজন। \n
+উষ্ণতাঃ সাধারণভাবে ১৬ ডিগ্রি সেন্টিগ্রেড থেকে ২৭ ডিগ্রি সেন্টিগ্রেড তাপমাত্রাযুক্ত অঞ্চলে ধান চাষ করা হয়। গড় তাপমাত্রা প্রয়োজন ২২ ডিগ্রি সেন্টিগ্রেড। "
+                    android:textAlignment="gravity"
+                    android:textColor="#000"
+                    android:textSize="23sp"
+                    tools:ignore="RtlCompat" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_rice" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"
+                        android:text="বাংলাদেশে ধানের মৌসুম"
+                        android:textAlignment="viewStart"
+                        android:textColor="#3F51B5"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="চাষের সময়ের উপর নির্ভর করে বাংলাদেশের ধানকে তিনটি ভাগে ভাগ করা হয়ে থাকে। এই প্রধান তিনটি ভাগ হল আউশ, আমন ও বোরো।"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="আউশ ধান"
+                    android:textAlignment="viewStart"
+                    android:textColor="#123"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+
+                    android:text="দ্রুত (আশু) ফসল উৎপন্ন হওয়ার বিচারে এই ধানের নাম করা হয়েছে আউশ। এই ধান সাধারণত জন্মে বর্ষাকালের আষাঢ় মাসে। এই কারণে এর অপর নাম আষাঢ়ী ধান। তবে এই ধান বৎসরের যে কোন সময়েই চাষ করা যায়। বাংলাদেশে আউশ ধানের যে নামগুলো পাওয়া যায়, তা হল- আটলাই, কটকতারা, কুমারী, চারনক, দুলার, ধলাষাইট, ধারাইল, পটুয়াখালী, পশুর, পানবিড়া, পাষপাই, পুখী, মরিচবেটি, হরিণমুদা, হাসিকলমি, সূর্যমুখ, শনি, ষাইটা, ভইরা, শঙ্ক পটি, কালা বকরি, খাড়াজামড়ি, মুলকে আউশ, কালামানিক, ভাতুরি ইত্যাদি। "
+                    android:textAlignment="viewStart"
+                    android:textColor="#123"
+                    android:textSize="23sp"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="আমন ধান"
+                    android:textAlignment="viewStart"
+                    android:textColor="#123"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+
+                    android:text="সংস্কৃত হৈমন' বা হৈমন্তিক' শব্দের অপভ্রংশ। ধান বিশেষ। এর অপর নাম আগুনী ও হৈমন্তিক। আমন মৌসুমে সবচেয়ে বেশি জমিতে ধানের আবাদ হয়।\n
+আমন ধান তিন প্রকার। যথা—\n
+১. রোপা আমন : চারা প্রস্তুত করে, সেই চারা রোপণ করে এই ধান উৎপন্ন হয় বলে এর এরূপ নাম। রোপা আমন জৈষ্ঠ্য-আষাঢ় মাসে বীজ তলায় বীজ বোনা হয়, শ্রাবণ-ভাদ্র মাসে মূল জমিতে রোপা কার হয় এবং অগ্রহায়ণ-পৌষ মাসে ধান কাটা হয়।\n
+২. বোনা আমন : এই আমন ছিটিয়ে বোনা হয়। বোনা আমন চৈত্র-বৈশাখ মাসে মাঠে বীজ বপন করা হয় এবং অগ্রহায়ণ মাসে পাকা ধান কাটা হয়। একে আছড়া আমনও বলে।\n
+৩. বাওয়া আমন : বিল অঞ্চলে এই আমন উৎপন্ন করা হয়। একে এই কারণে গভীর পানির বিলে আমনও বলা হয়ে থাকে। \n\n
+বাংলাদেশে বিভিন্ন প্রজাতির আমন ধানের চাষ হয়ে থাকে। এবং প্রতিটি প্রজাতির ধানের স্থানীয় নাম রয়েছে। যেমন— ইন্দ্রশাইল, কাতিবাগদার, ক্ষীরাইজালি, গদালাকি, গাবুরা, চিংড়িখুশি, চিটবাজ, জেশোবালাম, ঝিঙ্গাশাইল, ঢেপি, তিলককাচারী, দাউদিন, দাদখানি, দুদলাকি, দুধসর, ধলা আমন, নাগরা, নাজিরশাইল, পাটনাই, বাঁশফুল, বাইশ বিশ, বাদশাভোগ, ভাসা মানিক, মালিয়াডাক্র, রাজাশাইল, রূপশাইল, লাটশাইল, হাতিশাইল ইত্যাদি। "
+                    android:textAlignment="viewStart"
+                    android:textColor="#123"
+                    android:textSize="23sp"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+
+                    android:text="বোরো ধান"
+                    android:textAlignment="viewStart"
+                    android:textColor="#123"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="বোরো ধান প্রধানত সেচ নির্ভর। কার্তিক মাস থেকে বীজ তলায় বীজ বপন শুরু হয়। ধান কাটা চলে বৈশাখ-জৈষ্ঠ্য পর্যন্ত। উচ্চ ফলনশীল বোরো ধান প্রবর্তনের পর থেকে ধান আবাদ তথা সমুদয় কৃষি ব্যবস্থার মস্তবড় একটা পরিবর্তন এসেছে। ফলে একদিকে যেমন আউশ ধানের আবাদ আশঙ্কাজনকভাবে কমে এসেছে, তেমনি রবি মৌসুমে প্রচলিত ফসল যেমন ডাল, তৈল বীজ, শাক সবজি, ফলমূল, গোলআলু, মসলা ইত্যাদির আবাদ কমে এসেছে। তবে বসন্তকালে এই ধান জন্মে বলে একে বাসন্তিক ধান বলা হয়। এই জাতীয় ধানের নামগুলো হলো- আমন বোরো, খৈয়াবোরো, টুপা, পশুশাইল, বানাজিরা, বোরোবোরো ইত্যাদি। "
+                    android:textAlignment="viewStart"
+                    android:textColor="#123"
+                    android:textSize="23sp"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>
