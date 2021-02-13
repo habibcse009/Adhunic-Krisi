@@ -1,21 +1,38 @@
 package com.project.adunik_krisi.KrisiInformation;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.cleveroad.adaptivetablelayout.AdaptiveTableLayout;
 import com.project.adunik_krisi.R;
+import com.romainpiel.shimmer.Shimmer;
+import com.romainpiel.shimmer.ShimmerTextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class DhanerJatActivity extends AppCompatActivity {
+    ShimmerTextView tv1;
+    Shimmer shimmer1;
+    AdaptiveTableLayout mTableLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dhaner_jat);
-        getSupportActionBar().setTitle("ধানের বিবরণ");
+        getSupportActionBar().setTitle("উন্নতজাতের ধানসমূহ ");
         getSupportActionBar().setHomeButtonEnabled(true); //for back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//for back button
+        tv1 = (ShimmerTextView) findViewById(R.id.txtTitleDhanerJatInfo);
+
+        //Typeface tf = Typeface.createFromAsset(getAssets(), "Quicksand-Regular.otf");
+        Typeface tf = Typeface.createFromAsset(getAssets(), "AsapCondensed-Regular.ttf");
+        //txtTitle.setTypeface(tf);
+        tv1.setTypeface(tf);
+        shimmer1 = new Shimmer();
+        shimmer1.start(tv1);
+
+
 
     }
 

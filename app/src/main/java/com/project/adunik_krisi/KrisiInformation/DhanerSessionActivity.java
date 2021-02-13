@@ -13,7 +13,7 @@ public class DhanerSessionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dhaner_session);
-        getSupportActionBar().setTitle("ধানের মৌসুম");
+        getSupportActionBar().setTitle("বাংলাদেশের ধানের মৌসুম ");
         getSupportActionBar().setHomeButtonEnabled(true); //for back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//for back button
 

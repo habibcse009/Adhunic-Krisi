@@ -13,7 +13,7 @@ public class DhanerProkriyakoronActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dhaner_prokriyakoron);
-        getSupportActionBar().setTitle("ধানের বিবরণ");
+        getSupportActionBar().setTitle("ধানের প্রক্রিয়াজাতকরণ");
         getSupportActionBar().setHomeButtonEnabled(true); //for back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//for back button
 

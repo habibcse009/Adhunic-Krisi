@@ -187,6 +187,7 @@ attr cardMaxElevation
 attr cardPreventCornerOverlap
 attr cardUseCompatPadding
 attr cardViewStyle
+attr cellMargin
 attr chainUseRtl
 attr checkboxStyle
 attr checkedButton
@@ -327,6 +328,7 @@ attr divider
 attr dividerHorizontal
 attr dividerPadding
 attr dividerVertical
+attr dragAndDropEnabled
 attr dragDirection
 attr dragScale
 attr dragThreshold
@@ -390,6 +392,7 @@ attr fastScrollHorizontalTrackDrawable
 attr fastScrollVerticalThumbDrawable
 attr fastScrollVerticalTrackDrawable
 attr firstBaselineToTopHeight
+attr fixedHeaders
 attr floatingActionButtonStyle
 attr flow_firstHorizontalBias
 attr flow_firstHorizontalStyle
@@ -741,6 +744,7 @@ attr sliderStyle
 attr snackbarButtonStyle
 attr snackbarStyle
 attr snackbarTextViewStyle
+attr solidRowHeaders
 attr spanCount
 attr spinBars
 attr spinnerDropDownItemStyle
@@ -1180,6 +1184,8 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color shadow_end
+color shadow_start
 color successColor
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
@@ -1817,6 +1823,10 @@ drawable round_border
 drawable rounded_button
 drawable roundshapebtn
 drawable search_input_style
+drawable shadow_bottom
+drawable shadow_left
+drawable shadow_right
+drawable shadow_top
 drawable side_nav_bar
 drawable spot_mask
 drawable test_custom_background
@@ -2115,11 +2125,26 @@ id listView_Farmer
 id listView_FarmerCUS
 id listView_ViewNotice
 id list_icon
+id list_icon1
+id list_icon10
+id list_icon11
+id list_icon12
+id list_icon13
+id list_icon14
+id list_icon15
+id list_icon16
+id list_icon17
+id list_icon18
+id list_icon19
 id list_icon2
+id list_icon20
 id list_icon3
 id list_icon4
 id list_icon5
 id list_icon6
+id list_icon7
+id list_icon8
+id list_icon9
 id list_item
 id location
 id main
@@ -2263,6 +2288,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id tag_view_holder
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2321,6 +2347,7 @@ id txtNameAdmn
 id txtNameCus
 id txtNameFarmer
 id txtTitle
+id txtTitleDhanerJatInfo
 id txtTitleKrisiInfo
 id txtTitlesignup
 id txtUsernameAdmn
@@ -3403,6 +3430,7 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
+styleable AdaptiveTableLayout cellMargin dragAndDropEnabled fixedHeaders solidRowHeaders
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable

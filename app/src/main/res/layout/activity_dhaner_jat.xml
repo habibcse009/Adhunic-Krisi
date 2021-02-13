@@ -1,9 +1,1520 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_five"
     tools:context=".KrisiInformation.DhanerJatActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+
+                <com.romainpiel.shimmer.ShimmerTextView
+                    android:id="@+id/txtTitleDhanerJatInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="বাংলাদেশ ধান গবেষণা ইনস্টিটিউট কর্তৃক আবিষ্কৃত উন্নতজাতের ধানসমূহ "
+                    android:textColor="#123"
+                    android:textSize="22sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon"
+                            android:paddingTop="10dp"
+                            android:text="বি আর ১ (চান্দিনা)"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="১৯৭০ সালে ধানের প্রজাতি হিসেবে স্বীকৃতি দেয়া হয়। এর সময়কাল ১২০/১২৫ দিন। শস্যের আকৃতি মোটা ও ছোট। সাধারনত আউশ ও বোরো মৌসুমে হয়ে থাকে।প্রতি হেক্টরে ৪টন পর্যন্ত ফলন দিয়ে থাকে।"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon1"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon1"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon1"
+                            android:paddingTop="10dp"
+                            android:text="বি আর ২ (মালা)"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon1"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="১৯৭১ সালে প্রজাতি হিসেবে স্বীকৃতি দেয়া হয়। এটি আউশ ও বোরো মৌসুমে হয়ে থাকে। এর সময়কাল ১২৫-১৬০ দিন। ৪ টন (প্রতি হেক্টরে) ফলন দিয়ে থাকে। "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon2"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon2"
+                            android:paddingTop="10dp"
+                            android:text="বি আর ৩ (বিপ্লব)"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon2"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon2"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="১৯৭৩ সালে প্রজাতি হিসেবে স্বীকৃতি পায়। এটি আউশ, আমন ও বোরো তিন মৌসুমেই হয়ে থাকে। সময়কাল ১৩০ থেকে ১৭০ দিন। প্রতি হেক্টরে ৪ থেকে ৬.৫ টন পর্যন্ত ফলন দিয়ে থাকে। এটি একটি উচ্চ ফলনশীল ধান । "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon3"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon3"
+                            android:paddingTop="10dp"
+                            android:text="বি আর ৪ (ব্রিশাইল)"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon3"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon3"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="১৯৭৫ সালে প্রজাতি হিসেবে স্বীকৃতি পায়। এর সময়কাল ১৪৫ দিন, প্রতি হেক্টরে গড়ে ৫ টন পর্যন্ত ফলন দিয়ে থাকে। এটা সাধারনত আমন মৌসুমের ধান। এটি একটি আলোক সংবেদনশীল ধানের জাত। "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon4"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon4"
+                            android:paddingTop="10dp"
+                            android:text="বি আর ৫ (দুলাভোগ)"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon4"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon4"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="১৯৭৬ সালে জাত হিসেবে স্বীকৃতি পায়। ৫ টন পর্যন্ত (প্রতি হেক্টরে) এর গড় ফলন। সময়কাল ১৫০ দিন। আমন মৌসুমের ধান। স্থানীয় বাদশাভোগ ধান থেকে বিশুদ্ধ সারি বাছাইকরণ পদ্ধতিতে এই ধানের উদ্ভব। এই ধানের সুগন্ধ আছে বিধায় পোলাও রান্নার জন্য উপযোগী। আলোক সংবেদনশীল জাত। নাবীচাষের জন্য উপযুক্ত। "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon5"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon5"
+                            android:paddingTop="10dp"
+                            android:text="বি আর ৬"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon5"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon5"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="১৯৭৭ সালে জাত হিসেবে স্বীকৃতি পায়। ৪.৫-৫.৫ টন গড় উৎপাদন (প্রতি হেক্টরে)। সময়কাল ১১০ থেকে ১৪০ দিন পর্যন্ত। আউশ ও বোরো মৌসুমের ধান"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon6"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon6"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon6"
+                            android:paddingTop="10dp"
+                            android:text="বি আর ৭ (ব্রি বালাম)"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon6"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon6"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="১৯৭৭ সালে জাত হিসেবে স্বীকৃতি পায়। ৪.৫-৫.৫ টন গড় উৎপাদন (প্রতি হেক্টরে)। সময়কাল ১২৫ থেকে ১৫৫ দিন পর্যন্ত। আউশ ও বোরো মৌসুমের ধান"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon7"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon7"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon7"
+                            android:paddingTop="10dp"
+                            android:text="বি আর ৮ (আশা)"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon7"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon7"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="আউশ ও বোরো মৌসুমের ধান। ১৯৭৮ সালে জাত হিসেবে স্বীকৃতি পায়। ১২৫ থেকে ১৬০ দিন এর সময়কাল। ৫ থেকে ৬ টন পর্যন্ত প্রতি হেক্টরে ফলন দিয়ে থাকে। "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon8"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon8"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon8"
+                            android:paddingTop="10dp"
+                            android:text="বি আর ৯ (সুফলা)"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon8"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon8"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="আউশ ও বোরো মৌসুমের ধান। ১৯৭৮ সালে জাত হিসেবে স্বীকৃতি পায়। ১২৫ থেকে ১৫৫ দিন এর সময়কাল। ৫ থেকে ৬ টন পর্যন্ত প্রতি হেক্টরে ফলন দিয়ে থাকে।  "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon9"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon9"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon9"
+                            android:paddingTop="10dp"
+                            android:text="বি আর ১০ (প্রগতী)"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon9"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon9"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="১৯৮০ সালে জাত হিসেবে স্বীকৃতি পায়। আমন মৌসুমের ধান। ১৫০ দিন এর সময়কাল। প্রতি হেক্টরে গড়ে ৫.৫ টন ফলন দিয়ে থাকে। আন্ন্তর্জাতিক ফলন প্রতিযোগীতায় এই ধান শীর্ষস্থান অধিকার করে আছে। আলোকসংবেদনশীল জাত, হাটুপানিতেও রোপণ করা যায়। "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon10"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon10"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon10"
+                            android:paddingTop="10dp"
+                            android:text="ব্রি ধান ৩০"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon10"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon10"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="১৯৯৪ সালে এ জাতটির উদ্ভাবন হয়। আমন মৌসুমের ধান, এর আলোকসংবেদনশীলতা রয়েছে। এর ব্যাপ্তিকাল ১৪৫ দিন। হেক্টরপ্রতি ফলন প্রায় ৫ টন । "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon11"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon11"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon11"
+                            android:paddingTop="10dp"
+                            android:text="ব্রি ধান ৩৪"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon11"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon11"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="আমন মৌসুমের সুগন্ধ পোলাও জাতের ধান। এ ধান দেখতে কালিজিরার মতোই ছোট। যশোর অঞ্চলের খাসকানি নামক স্থান থেকে বাছাইকরণ প্রক্রিয়ার মাধ্যমে ১৯৯৭ সালে এ ধানের উদ্ভব ঘটে। জীবনকাল ১৩৫ দিন। ফলন হেক্টরপ্রতি ৩.৫ টন। "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon12"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon12"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon12"
+                            android:paddingTop="10dp"
+                            android:text="ব্রি ধান ৩৬"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon12"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon12"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="১৯৯৮ সালে ইরি থেকে এ জাতের প্রবর্তন। চারা অবস্থায় ঠান্ডা সহনশীল। ১৪০ থেকে ১৪৫ দিন পর্যন্ত এর ব্যাপ্তিকাল। ৫ থেকে ৫.৫ টন পর্যন্ত হেক্টরপ্রতি ফলন দিয়ে থাকে। যে সমস্ত এলাকায় তাপমাত্রা ১৫ ডিগ্রী সেলসিয়াস এর নিচে নেমে যায়। সে সকল এলাকায় উৎপাদন ভালো হয়।  "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon13"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon13"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon13"
+                            android:paddingTop="10dp"
+                            android:text="ব্রি ধান ৪৯"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon13"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon13"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="আমন মৌসুমে চাষ করা হয়। খরা সহিষ্ণু জাত। ২০১১ সালে বীজ বোর্ডের অনুমোদন লাভ করে। পশ্চাৎ সংকরায়ন করে বংশানুক্রম সিলেকশানের মাধ্যমে এ জাতের উদ্ভব। ১০৫ থেকে ১১০ দিন এর ব্যাপ্তিকাল। সাড়ে চার থেকে পাঁচ টন পর্যন্ত ফলন (হেক্টরপ্রতি) দিয়ে থাকে। "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon14"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon14"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon14"
+                            android:paddingTop="10dp"
+                            android:text="ব্রি ধান ৫০ (বাংলামতি)"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon14"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon14"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="বোরো মৌসুমের ধান। লম্বা চিকন, সাদা এবং সুগন্ধী। জীবনকাল ১৫৫ দিন। ধানের গড় ফলন প্রতি হেক্টরে ৬ টন। ২০০৮ সালে জাত হিসেবে স্বীকৃতি পায়।"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon15"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon15"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon15"
+                            android:paddingTop="10dp"
+                            android:text="ব্রি ধান ৫৫"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon15"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon15"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="বোরো ও আউস মৌসুমের ধান। লম্বা চিকন। জীবনকাল ১৪৫ (বোরো) ও ১০৫ (আউস) দিন। ধানের গড় ফলন প্রতি হেক্টরে ৭ (বোরো) ও ৫ (আউস) টন। ২০১১ সালে জাত হিসেবে স্বীকৃতি পায়।  "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon16"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon16"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon16"
+                            android:paddingTop="10dp"
+                            android:text="ব্রি ধান ৫৮"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon16"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon16"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="বোরো মৌসুমের ধান। মাঝারি চিকন, সাদা। জীবনকাল ১৫৫ দিন। ধানের গড় ফলন প্রতি হেক্টরে ৭.৫ টন। ২০১২ সালে জাত হিসেবে স্বীকৃতি পায়। "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon17"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon17"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon17"
+                            android:paddingTop="10dp"
+                            android:text="ব্রি হাইব্রিড ধান ১"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon17"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon17"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="বোরো মৌসুমের ধান। মাঝারি চিকন, সাদা। জীবনকাল ১৫৫ দিন। ধানের গড় ফলন প্রতি হেক্টরে ৮.৫ টন। ২০০১ সালে জাত হিসেবে স্বীকৃতি পায়। "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon18"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon18"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon18"
+                            android:paddingTop="10dp"
+                            android:text="ব্রি হাইব্রিড ধান ২"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon18"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon18"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="বোরো মৌসুমের ধান। মাঝারি মোটা। জীবনকাল ১৪৫ দিন। ধানের গড় ফলন প্রতি হেক্টরে ৮ টন। ২০০৮ সালে জাত হিসেবে স্বীকৃতি পায়। "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon19"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon19"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon19"
+                            android:paddingTop="10dp"
+                            android:text="ব্রি হাইব্রিড ধান ৩"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon19"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon19"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="বোরো মৌসুমের ধান। মাঝারি মোটা। জীবনকাল ১৪৫ দিন। ধানের গড় ফলন প্রতি হেক্টরে ৯ টন। ২০০৯ সালে জাত হিসেবে স্বীকৃতি পায়। "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon20"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="1.5dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon20"
+                            android:background="@color/design_default_color_secondary_variant" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_toRightOf="@id/list_icon20"
+                            android:paddingTop="10dp"
+                            android:text="ব্রি হাইব্রিড ধান ৪"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_below="@id/list_icon20"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@color/Dark_green" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/list_icon20"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="5dp"
+                            android:text="আমন মৌসুমের ধান। মাঝারি চিকন, সাদা। জীবনকাল ১১৮ দিন। ধানের গড় ফলন প্রতি হেক্টরে ৬.৫ টন। ২০১০ সালে জাত হিসেবে স্বীকৃতি পায়।"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="20sp"
+                            tools:ignore="RtlCompat" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>

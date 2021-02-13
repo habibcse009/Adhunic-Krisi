@@ -27,7 +27,6 @@
                     android:layout_height="match_parent"
                     android:adjustViewBounds="true"
                     android:fitsSystemWindows="true"
-                    android:paddingLeft="5dp"
                     android:src="@drawable/dhan" />
 
 
