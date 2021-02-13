@@ -1,9 +1,357 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_five"
     tools:context=".KrisiInformation.DhanerProkriyakoronActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/scl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:fitsSystemWindows="true"
+                    android:paddingLeft="5dp"
+                    android:src="@drawable/dhan" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_fosol_prokriyakoron" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"
+                        android:text="ফসল সংগ্রহ... "
+                        android:textAlignment="textStart"
+                        android:textColor="#fff"
+                        android:textSize="23sp"
+                        android:textStyle="bold"
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="অধিকাংশ জাতের ধান পেকে গেলে হলুদ কিংবা হালকা সোনালী বর্ণ ধারণ করে। এরূপ হলুদ বর্ণে পরিণত হলে বুঝতে হবে ধান কাটার সময় হয়েছে। "
+                    android:textAlignment="gravity"
+                    android:textColor="#000"
+                    android:textSize="23sp"
+                    tools:ignore="RtlCompat" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_fosol_prokriyakoron" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"
+                        android:text="ধানের প্রক্রিয়াজাতকরণ"
+                        android:textAlignment="viewStart"
+                        android:textColor="#3F51B5"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="ধান কাটার পর সাধারণ একে রোদে শুকানো হয়। রোদে শুকিয়ে এর বীজের আর্দ্রতা কমিয়ে আনা হয় যেনো একে গোলাজাত করার পর কোন ছত্রাক জাতীয় রোগ আক্রমণ করতে না পারে কিংবা যেনো পঁচে না যায়। এরপর একে ঢেঁকির সাহায্যে কিংবা মাড়াইকরণ যন্ত্রের সাহায্যে এর খোসা ছাড়ানো হয়। এ পদ্ধতিকে ইংরেজিতে বলা হয় হাস্কিং। এরপর একে কুলোর সাহায্যে ঝেড়ে বাছা হয়। এই প্রক্রিয়ার পরই পাওয়া যায় চাল।"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    tools:ignore="RtlCompat" />
+                //ranna
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_fosol_prokriyakoron" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"
+                        android:text="রান্না"
+                        android:textAlignment="viewStart"
+                        android:textColor="#3F51B5"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="সাধারণত চালকে সেদ্ধ করলে তা ভাতে পরিণত হয়। জলের সাথে চালকে মিশিয়ে তা আগুনে সেদ্ধ করলে প্রয়োজনীয় পানি শোষন করে ফেঁপে যায় এবং আরোও আঠালো হয়ে উঠে। সেটাকেই ভাত বলা হয়। এশিয়া এবং আফ্রিকার কিছু দেশে রাইস কুকারের সাহায্যে ভাত রান্না করা হয়। ভেজে রান্না করা হলে সেটা তুলনামূলক ভাবে কম আঠালো হয়। একে ফ্রাইড রাইস বলে। ধান থেকে আমরা চাল পাই। "
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    tools:ignore="RtlCompat" />
+
+                //dhan the khaddo
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_fosol_prokriyakoron" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"
+                        android:text="ধান থেকে তৈরীকৃত খাদ্য"
+                        android:textAlignment="viewStart"
+                        android:textColor="#3F51B5"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:text="ধান থেকে সাধারণত ভাত, মুড়ি, খই, চালের গুঁড়ো, চালভাজা, চিঁড়ে এবং বিভিন্ন রকম পিঠা তৈরি করা হয়। চালের ভাঙা টুকরোকে খুদ বলা হয়। আগে গরীব মানুষ অনেকসময় খাদ্য হিসেবে খুদ ব্যবহার করত। এখন অবশ্য গোখাদ্য হিসেবেই এর ব্যবহার বেশি হয়। আজকাল ধান থেকে উন্নত মানের তেল তৈরি করা হয়৷  "
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    tools:ignore="RtlCompat" />
+                // dhaner pusti
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_fosol_prokriyakoron" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="10dp"
+                        android:text="ধানের পুষ্টিগুণ"
+                        android:textAlignment="viewStart"
+                        android:textColor="#3F51B5"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/card_bg"
+                    android:padding="10dp"
+                    android:stretchColumns="1">
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="start"
+                            android:padding="1dip"
+                            android:text="উপাদান"
+                            android:textColor="@color/colorRed_A400"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="1dip"
+                            android:text="পরিমাণ ( ১০০ গ্রামে )"
+                            android:textColor="@color/colorRed_A400"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+
+                    <View
+                        android:layout_height="2dip"
+                        android:background="#009688" />
+
+                    <TableRow>
+                        <TextView
+                            android:gravity="start"
+                            android:padding="1dip"
+                            android:text="জল"
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="1dip"
+                            android:text="১২ "
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:gravity="start"
+                            android:padding="1dip"
+                            android:text="কার্বোহাড্রেট"
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="1dip"
+                            android:text="৮০ "
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:gravity="start"
+                            android:padding="1dip"
+                            android:text="শক্তি"
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="1dip"
+                            android:text="১৫২৮ কিলোজুল "
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:gravity="start"
+                            android:padding="1dip"
+                            android:text="আমিষ"
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="1dip"
+                            android:text="৭.১ "
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:gravity="start"
+                            android:padding="1dip"
+                            android:text="স্নেহ"
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="1dip"
+                            android:text="০.৬৬ "
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:gravity="start"
+                            android:padding="1dip"
+                            android:text="আঁশ"
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="1dip"
+                            android:text="১.৩ "
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:gravity="start"
+                            android:padding="1dip"
+                            android:text="চিনি"
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:gravity="right"
+                            android:padding="1dip"
+                            android:text="০.১২ "
+                            android:textColor="@color/Asphalt_grey"
+                            android:textSize="25sp" />
+                    </TableRow>
+
+
+                </TableLayout>
+
+
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>
