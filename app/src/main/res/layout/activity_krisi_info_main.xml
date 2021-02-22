@@ -188,6 +188,56 @@
                     </RelativeLayout>
 
                     <RelativeLayout
+                        android:id="@+id/krisi_info_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon7"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_modern_rice_list" />
+
+                        <View
+                            android:layout_width="3dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon7"
+                            android:background="@color/colorRed_A400" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_toRightOf="@id/list_icon7"
+                            android:paddingTop="10dp"
+                            android:text="ধানের বর্তমান বাজারদর "
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
                         android:id="@+id/krisi_info_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -236,6 +286,56 @@
                             tools:ignore="RtlCompat" />
 
                     </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/krisi_info_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/card_bg"
+                        android:foreground="?android:attr/selectableItemBackground">
+
+                        <ImageView
+                            android:id="@+id/list_icon8"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:padding="8dp"
+                            android:src="@drawable/ic_rice" />
+
+                        <View
+                            android:layout_width="3dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_toRightOf="@id/list_icon8"
+                            android:background="@color/colorRed_A400" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_toRightOf="@id/list_icon8"
+                            android:paddingTop="10dp"
+                            android:text="ধানের রোগ ও প্রতিকার"
+                            android:textAlignment="textStart"
+                            android:textColor="#009688"
+                            android:textSize="23sp"
+                            android:textStyle="bold"
+                            tools:ignore="RtlCompat" />
+
+                    </RelativeLayout>
+
 
                     <RelativeLayout
                         android:id="@+id/krisi_info_5"

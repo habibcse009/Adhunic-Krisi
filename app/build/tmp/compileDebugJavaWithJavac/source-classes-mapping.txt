@@ -192,6 +192,8 @@ com/project/adunik_krisi/KrisiInformation/KrisiInfoMainActivity.java
  com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$4
  com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$5
  com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$6
+ com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$7
+ com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$8
 com/project/adunik_krisi/Admin/Profile/ProfileAdminActivity.java
  com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity
  com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity$1

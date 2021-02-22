@@ -272,9 +272,6 @@ public class RegistrationActivity extends AppCompatActivity {
                 else if (mobile.length() != 11 || mobile.contains(" ") || mobile.charAt(0) != '0' || mobile.charAt(1) != '1') {
                     etxtCell.setError("সঠিক মোবাইল নাম্বার দিন!");
                     requestFocus(etxtCell);
-                } else if (email.isEmpty()) {
-                    etxtEmail.setError("সঠিক ইমেইল এড্রেস দিন!");
-                    requestFocus(etxtEmail);
                 }
 
                 //Checking  field/validation

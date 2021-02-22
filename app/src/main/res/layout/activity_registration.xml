@@ -112,7 +112,7 @@
 
                         android:layout_marginRight="22dp"
                         android:background="@drawable/round_border"
-                        android:hint="ইমেইল এড্রেস"
+                        android:hint="ইমেইল এড্রেস (এটা বাধ্যতামূলক না)"
 
                         android:inputType="textEmailAddress"
                         android:padding="16dp"
