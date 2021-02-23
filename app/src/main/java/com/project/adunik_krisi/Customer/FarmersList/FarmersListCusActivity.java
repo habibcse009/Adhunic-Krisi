@@ -257,7 +257,7 @@ public class FarmersListCusActivity extends AppCompatActivity {
                         .setNegativeButton("তার সকল পণ্য দেখুন", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
 
-                            /*    Intent intent = new Intent(FarmersListCusActivity.this, AllProductsActivity.class);
+                                Intent intent = new Intent(FarmersListCusActivity.this, FarmerProductsActivity.class);
                                 //intent.setData(Uri.parse("cell" + shopCell[position]));
                                 String farmer_cell = farmerCell[position];
                                 intent.putExtra("getcell", farmer_cell);
@@ -265,7 +265,7 @@ public class FarmersListCusActivity extends AppCompatActivity {
                                 //intent.putExtra("type", "Shop");
                                 startActivity(intent);
 
-*/
+
                             }
                         })
 

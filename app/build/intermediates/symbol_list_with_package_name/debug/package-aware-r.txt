@@ -2111,6 +2111,7 @@ id ignoreRequest
 id image
 id image_Addproduct
 id image_no_product
+id image_no_productShop
 id imgIcon
 id img_contactus
 id img_layout
@@ -2242,6 +2243,7 @@ id radio
 id ratio
 id rectangles
 id recycler
+id recyclerShop
 id reverseSawtooth
 id right
 id right_icon
@@ -2459,6 +2461,7 @@ id viewStrip
 id view_offset_helper
 id visible
 id whorl2
+id whorl2Shop
 id withText
 id withinBounds
 id wrap
@@ -2539,6 +2542,7 @@ layout activity_edit_profile_admin
 layout activity_edit_profile_cus
 layout activity_edit_profile_farmer
 layout activity_farmer_main
+layout activity_farmer_products
 layout activity_farmers_list_admin
 layout activity_farmers_list_cus
 layout activity_image_select

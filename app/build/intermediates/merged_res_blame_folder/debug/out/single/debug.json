@@ -12,14 +12,6 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_web_link.png"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_search.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_search.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logout.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_logout.png"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_modern_rice_list.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_modern_rice_list.xml"
     },
@@ -30,10 +22,6 @@
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_resourse_img_one.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\resourse_img_one.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_farmers_list_admin.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_farmers_list_admin.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_border.xml.flat",
@@ -48,16 +36,8 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_view_admin_notices.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_shop.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_shop.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profile_farmer.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_edit_profile_farmer.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_preloader.gif.flat",
@@ -80,32 +60,12 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\welcomebackground.png"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_review.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\review.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cus_main.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_cus_main.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_orders.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_orders.png"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_profile.png"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_farmer_list_item.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\farmer_list_item.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search_input_style.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\search_input_style.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_web_link.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_web_link.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_applogo.png.flat",
@@ -136,36 +96,8 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\welcome.gif"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_order.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_order.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_square.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\logo_square.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_add.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_userguide.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_userguide.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_file.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fosol.jpg.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\fosol.jpg"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_cus_list_item.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\cus_list_item.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -174,14 +106,6 @@
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bg_one.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_bg_one.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_potato.jpg.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\potato.jpg"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_notice_admin.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_add_notice_admin.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_contactus.xml.flat",
@@ -196,24 +120,12 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_headhunting.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_one.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\background_one.png"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_applogo.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_applogo.png"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_details_farmer.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_order_details_farmer.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_find_doctor.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_find_doctor.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\anim_smalltobig.xml.flat",
@@ -236,24 +148,8 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\background_six.png"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cus_list.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_cus_list.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loading.jpg.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\loading.jpg"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundshapebtn.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\roundshapebtn.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bg_three.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_bg_three.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bd_area.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_bd_area.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_bg.xml.flat",
@@ -264,22 +160,6 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profile_admin.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_edit_profile_admin.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_profile.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_main_profile.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_placeholder.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\image_placeholder.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_farmer_main.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_farmer_main.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_payments.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_payments.png"
     },
@@ -288,24 +168,8 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\menu\\guide_menu.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_hospital.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_hospital.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_main.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_admin_main.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_not_found.jpg.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\not_found.jpg"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_profile.xml.flat",
@@ -336,12 +200,336 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_krisi_info.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_krisi_info.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_logout.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_logout.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_circle.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\logo_circle.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_cus.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_profile_cus.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\anim_btta.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\anim\\btta.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_product.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_all_product.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_farmer_products.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_farmer_products.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_button.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_crops2.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\crops2.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dhaner_session.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_dhaner_session.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_one.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_icon_one.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dhan.jpg.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\dhan.jpg"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_welcomebackground.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\welcomebackground.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_find_hospital.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_find_hospital.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_translation.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\translation.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_blood.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_blood.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_carts.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_carts.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_farmers_list_cus.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_farmers_list_cus.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dhaner_prokriyakoron.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_dhaner_prokriyakoron.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_down.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_arrow_down.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_two.jpg.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\background_two.jpg"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_welcomebackground.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\welcomebackground.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_description.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_product_description.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_blood.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_blood.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_farmer.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_order_farmer.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_list_items.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\order_list_items.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_find_ambulance.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_find_ambulance.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rice.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_rice.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bgbtnpress.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\bgbtnpress.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_product.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_add_product.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_addproduct.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_addproduct.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about_app.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_about_app.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_image.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_add_image.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_web_link.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_web_link.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bgbtnonfocus.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\bgbtnonfocus.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_blood.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_blood.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_welcomebackground.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\welcomebackground.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_left.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\btn_left.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_applogo.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_applogo.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_farmer.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_profile_farmer.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradiant.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\gradiant.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_applogo.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_applogo.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_item.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\row_item.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_crops.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\crops.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sp_order.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_sp_order.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_search.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_search.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logout.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_logout.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_farmers_list_admin.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_farmers_list_admin.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_shop.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_shop.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profile_farmer.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_edit_profile_farmer.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_review.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\review.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cus_main.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_cus_main.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_orders.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_orders.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_farmer_list_item.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\farmer_list_item.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_web_link.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_web_link.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_order.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_order.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_square.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\logo_square.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_userguide.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_userguide.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fosol.jpg.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\fosol.jpg"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_cus_list_item.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\cus_list_item.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_potato.jpg.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\potato.jpg"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_notice_admin.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_add_notice_admin.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_one.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\background_one.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_details_farmer.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_order_details_farmer.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cus_list.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_cus_list.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loading.jpg.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\loading.jpg"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundshapebtn.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\roundshapebtn.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bd_area.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_bd_area.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profile_admin.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_edit_profile_admin.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_main_profile.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_main_profile.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_placeholder.png.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\image_placeholder.png"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_farmer_main.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_farmer_main.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin_main.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_admin_main.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_hospital.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_hospital.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_not_found.jpg.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\not_found.jpg"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_krisi_info.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_krisi_info.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_new.xml.flat",
@@ -364,36 +552,16 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_sells_report.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_circle.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\logo_circle.png"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_donation_tips.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_donation_tips.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_cus.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_profile_cus.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_right.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\btn_right.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\anim_btta.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\anim\\btta.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_all_product.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_all_product.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registration.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_registration.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_button.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\rounded_button.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_web_link.png.flat",
@@ -404,24 +572,12 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_fosol_prokriyakoron.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_crops2.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\crops2.png"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_three.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\background_three.png"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_blood.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_blood.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dhaner_session.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_dhaner_session.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_icon_one.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_icon_one.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
@@ -436,24 +592,8 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_dhaner_jat.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dhan.jpg.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\dhan.jpg"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_welcomebackground.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\welcomebackground.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_find_hospital.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_find_hospital.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_web_link.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_web_link.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_translation.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\translation.png"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_seven.png.flat",
@@ -468,10 +608,6 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_lock.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_blood.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_blood.png"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_welcomebackground.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\welcomebackground.xml"
     },
@@ -484,28 +620,12 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\background_eight.png"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_carts.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_carts.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_spring.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_spring.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_farmers_list_cus.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_farmers_list_cus.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_admin.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_profile_admin.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dhaner_prokriyakoron.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_dhaner_prokriyakoron.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_down.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_arrow_down.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_list_cus.xml.flat",
@@ -524,10 +644,6 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_action_name.png"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_two.jpg.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\background_two.jpg"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_call.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_call.xml"
     },
@@ -540,20 +656,8 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\nodatafound.jpg"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_welcomebackground.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\welcomebackground.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_description.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_product_description.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profile_cus.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_edit_profile_cus.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_order.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_blood.png.flat",
@@ -572,32 +676,12 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_applogo.png"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\button_background.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_blood.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_blood.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_farmer.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_order_farmer.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_notice_list_item.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\notice_list_item.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_list_items.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\order_list_items.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cus_order.xml.flat",
@@ -612,10 +696,6 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_location.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_find_ambulance.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_find_ambulance.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_products.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\products.png"
     },
@@ -624,64 +704,24 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_blood.png"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rice.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_rice.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_customers_list_admin.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_customers_list_admin.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bgbtnpress.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\bgbtnpress.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_product.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_add_product.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_addproduct.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_addproduct.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contact_admin.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_contact_admin.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about_app.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_about_app.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_image.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_add_image.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_web_link.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_web_link.png"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_myproduct.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_myproduct.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bgbtnonfocus.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\bgbtnonfocus.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_blood.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_blood.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_review.xml.flat",
@@ -694,14 +734,6 @@
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_web_link.png.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_web_link.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_welcomebackground.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\welcomebackground.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_left.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\btn_left.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -720,20 +752,12 @@
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_contact_us.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_applogo.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_applogo.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_loading.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_loading.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_opps_order.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_opps_order.xml"
     },
     {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_farmer.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\activity_profile_farmer.xml"
+        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_loading.xml.flat",
+        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_loading.xml"
     },
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_oops_sp.xml.flat",
@@ -742,25 +766,5 @@
     {
         "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_create_notice.xml.flat",
         "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_create_notice.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradiant.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\gradiant.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_applogo.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_applogo.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_item.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\layout\\row_item.xml"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_crops.png.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\crops.png"
-    },
-    {
-        "merged": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sp_order.xml.flat",
-        "source": "H:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\src\\main\\res\\drawable\\ic_sp_order.xml"
     }
 ]
