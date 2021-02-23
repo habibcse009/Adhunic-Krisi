@@ -24,6 +24,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.Adunik_krisi"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity" />
+        <activity android:name="com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity" />
+        <activity android:name="com.project.adunik_krisi.Farmer.Order.OrderActivity" />
+        <activity android:name="com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity" />
+        <activity android:name="com.project.adunik_krisi.Farmer.Product.AllProductActivity" />
+        <activity android:name="com.project.adunik_krisi.Farmer.Product.AddProductActivity" />
         <activity android:name="com.project.adunik_krisi.KrisiInformation.DhanerJatActivity" />
         <activity android:name="com.project.adunik_krisi.KrisiInformation.DhanerProkriyakoronActivity" />
         <activity android:name="com.project.adunik_krisi.KrisiInformation.DhanerSessionActivity" />

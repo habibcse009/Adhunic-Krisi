@@ -16,6 +16,9 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.project.adunik_krisi.Constant;
+import com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity;
+import com.project.adunik_krisi.Farmer.Product.AddProductActivity;
+import com.project.adunik_krisi.Farmer.Product.AllProductActivity;
 import com.project.adunik_krisi.Farmer.Profile.ProfileFarmerActivity;
 import com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity;
 import com.project.adunik_krisi.LoginActivity;
@@ -93,8 +96,10 @@ public class FarmerMainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //   Intent intent = new Intent(FarmerMainActivity.this, FarmersListFarmerActivity.class);
-                // startActivity(intent);
+                Intent intent = new Intent(FarmerMainActivity.this, AddProductActivity.class);
+                intent.putExtra("type", "কৃষক");
+
+                startActivity(intent);
 
 
             }
@@ -117,8 +122,10 @@ public class FarmerMainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //    Intent intent = new Intent(FarmerMainActivity.this, OrderListFarmerActivity.class);
-                //  startActivity(intent);
+                Intent intent = new Intent(FarmerMainActivity.this, OrderFarmerActivity.class);
+                intent.putExtra("type", "ServiceProvider");
+
+                startActivity(intent);
 
 
             }
@@ -128,6 +135,8 @@ public class FarmerMainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Intent intent = new Intent(FarmerMainActivity.this, KrisiInfoMainActivity.class);
+                intent.putExtra("type", "কৃষক");
+
                 startActivity(intent);
 
 
@@ -136,11 +145,11 @@ public class FarmerMainActivity extends AppCompatActivity {
         cardMyProductsFarmer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-/*
-                Intent intent = new Intent(FarmerMainActivity.this, AllProductsActivity.class);
-                intent.putExtra("type", "Farmer");
+
+                Intent intent = new Intent(FarmerMainActivity.this, AllProductActivity.class);
+                intent.putExtra("type", "কৃষক");
                 startActivity(intent);
-*/
+
 
             }
         });

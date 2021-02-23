@@ -19,6 +19,7 @@ import com.project.adunik_krisi.Constant;
 import com.project.adunik_krisi.Customer.FarmersList.FarmersListCusActivity;
 import com.project.adunik_krisi.Customer.Orders.OrderListCusActivity;
 import com.project.adunik_krisi.Customer.Profile.ProfileCusActivity;
+import com.project.adunik_krisi.Farmer.Product.AllProductActivity;
 import com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity;
 import com.project.adunik_krisi.LoginActivity;
 import com.project.adunik_krisi.R;
@@ -140,11 +141,11 @@ public class CusMainActivity extends AppCompatActivity {
         cardAllProductsCus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-/*
-                Intent intent = new Intent(CusMainActivity.this, AllProductsActivity.class);
-                intent.putExtra("type", "Customer");
+
+                Intent intent = new Intent(CusMainActivity.this, AllProductActivity.class);
+                intent.putExtra("type", "ক্রেতা");
                 startActivity(intent);
-*/
+
 
             }
         });

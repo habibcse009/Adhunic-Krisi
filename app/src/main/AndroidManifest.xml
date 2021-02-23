@@ -15,7 +15,13 @@
         android:theme="@style/Theme.Adunik_krisi"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".KrisiInformation.DhanerJatActivity"></activity>
+        <activity android:name=".Farmer.Order.OrderDetailsFarmerActivity"></activity>
+        <activity android:name=".Farmer.Order.OrderFarmerActivity" />
+        <activity android:name=".Farmer.Order.OrderActivity" />
+        <activity android:name=".Farmer.Product.ProductDescriptionActivity" />
+        <activity android:name=".Farmer.Product.AllProductActivity" />
+        <activity android:name=".Farmer.Product.AddProductActivity" />
+        <activity android:name=".KrisiInformation.DhanerJatActivity" />
         <activity android:name=".KrisiInformation.DhanerProkriyakoronActivity" />
         <activity android:name=".KrisiInformation.DhanerSessionActivity" />
         <activity android:name=".KrisiInformation.DhanerInfoActivity" />

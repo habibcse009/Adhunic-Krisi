@@ -3,6 +3,8 @@ package com.project.adunik_krisi.remote;
 
 
 import com.project.adunik_krisi.Constant;
+import com.project.adunik_krisi.Farmer.Product.model.Product;
+import com.project.adunik_krisi.Farmer.Product.model.ProductUpload;
 
 import java.util.List;
 
@@ -18,7 +20,7 @@ import retrofit2.http.Part;
 import retrofit2.http.Query;
 
 public interface ApiInterface {
-/*
+
    @POST("retrofit/POST/readcontacts.php")
     Call<List<Product>> getContacts();
 
@@ -75,5 +77,5 @@ public interface ApiInterface {
                                    @Part(Constant.KEY_QUANTITY) RequestBody stock,
                                    @Part(Constant.KEY_PRICE) RequestBody price,
                                    @Part(Constant.KEY_DESCRIPTION) RequestBody description,
-                                   @Part(Constant.KEY_SP_CELL) RequestBody sp_cell);*/
+                                   @Part(Constant.KEY_SP_CELL) RequestBody sp_cell);
 }
