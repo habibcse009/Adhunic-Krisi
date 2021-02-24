@@ -57,7 +57,7 @@ public class OrderListCusActivity extends AppCompatActivity {
 
         getSupportActionBar().setHomeButtonEnabled(true); //for back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//for back button
-        getSupportActionBar().setTitle("My Order List");
+        getSupportActionBar().setTitle("পণ্য ক্রয়ের তালিকা");
 
 
         //Fetching cell from shared preferences
@@ -75,7 +75,7 @@ public class OrderListCusActivity extends AppCompatActivity {
                 String searchText = etxtSearch.getText().toString().trim();
 
                 if (searchText.isEmpty()) {
-                    Toasty.error(OrderListCusActivity.this, "Please input text!", Toast.LENGTH_SHORT).show();
+                    Toasty.error(OrderListCusActivity.this, "পণ্যের সম্পর্কে কিছু লিখুন!", Toast.LENGTH_SHORT).show();
                 } else {
                     getData(searchText);
                 }
@@ -114,7 +114,7 @@ public class OrderListCusActivity extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
 
                         loading.dismiss();
-                        Toasty.error(OrderListCusActivity.this, "Network Error!", Toast.LENGTH_LONG).show();
+                        Toasty.error(OrderListCusActivity.this, "নেটওয়ার্কে সমস্যা!", Toast.LENGTH_LONG).show();
                     }
                 });
 
@@ -134,7 +134,7 @@ public class OrderListCusActivity extends AppCompatActivity {
             JSONArray result = jsonObject.getJSONArray(Constant.JSON_ARRAY);
 
             if (result.length() == 0) {
-                Toasty.error(OrderListCusActivity.this, "No Order Found!", Toast.LENGTH_SHORT).show();
+                Toasty.error(OrderListCusActivity.this, "কোন ক্রয়ের বিবরণী পাওয়া যায়নি!", Toast.LENGTH_SHORT).show();
                 finish();
 
 
@@ -155,20 +155,19 @@ public class OrderListCusActivity extends AppCompatActivity {
 
 
                     if (status.equals("0")) {
-                        status = "Pending";
+                        status = "বিচারাধীন";
                     } else if (status.equals("1")) {
-                        status = "Confirmed";
+                        status = "নিশ্চিত";
                     } else if (status.equals("2")) {
-                        status = "Cancel";
-                    } else {
-                        status = "Delivered";
+                        status = "বাতিল";
                     }
+
                     HashMap<String, String> user_msg = new HashMap<>();
 
-                    user_msg.put(Constant.KEY_NAME, name);
-                    user_msg.put(Constant.KEY_PRICE, "Price: " + price);
-                    user_msg.put(Constant.KEY_QUANTITY, "Quantity: " + quantity);
-                    user_msg.put(Constant.KEY_STATUS, "Status: " + status);
+                    user_msg.put(Constant.KEY_NAME, "পণ্যের নাম  :  " + name);
+                    user_msg.put(Constant.KEY_PRICE, "পণ্যের দাম           :  ৳" + price + " টাকা");
+                    user_msg.put(Constant.KEY_QUANTITY, "পণ্যের পরিমাণ     :  " + quantity);
+                    user_msg.put(Constant.KEY_STATUS, "অর্ডারের অবস্থা    :  " + status);
 
 
                     list.add(user_msg);
@@ -237,13 +236,13 @@ public class OrderListCusActivity extends AppCompatActivity {
                     intent.putExtra("id", mId[position]);
                     startActivity(intent);
                   */
-                    Toasty.info(OrderListCusActivity.this, "Your order is confirmed", Toast.LENGTH_SHORT).show();
+                    Toasty.success(OrderListCusActivity.this, "আপনার পণ্যের অর্ডার নিশ্চিত হয়েছে", Toast.LENGTH_SHORT).show();
 
 
                 } else if (mStatus[position].equals("2")) {
-                    Toasty.info(OrderListCusActivity.this, "Your order is canceled", Toast.LENGTH_SHORT).show();
+                    Toasty.warning(OrderListCusActivity.this, "আপনার পণ্যের অর্ডার বাতিল হয়েছে\nদয়া করে বিক্রেতা কৃষকের সাথে যোগাযোগ করুন", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toasty.info(OrderListCusActivity.this, "Your order is pending", Toast.LENGTH_SHORT).show();
+                    Toasty.info(OrderListCusActivity.this, "আপনার পণ্যের অর্ডার বিচারাধীন রয়েছে", Toast.LENGTH_SHORT).show();
                 }
             }
 

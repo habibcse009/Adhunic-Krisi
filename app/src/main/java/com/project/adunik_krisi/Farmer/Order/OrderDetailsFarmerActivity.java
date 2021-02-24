@@ -46,7 +46,7 @@ public class OrderDetailsFarmerActivity extends AppCompatActivity {
 
         getSupportActionBar().setHomeButtonEnabled(true); //for back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//for back button
-        getSupportActionBar().setTitle("Order Details");
+        getSupportActionBar().setTitle("পণ্য বিক্রয়ের বিবরণ");
 
         txtProductName = findViewById(R.id.txt_product_name);
         txtProductPrice = findViewById(R.id.txt_product_price);
@@ -82,27 +82,27 @@ public class OrderDetailsFarmerActivity extends AppCompatActivity {
         time = getIntent().getExtras().getString("time");
 
 
-        txtOrderId.setText("Order ID" + " : " + id);
+        txtOrderId.setText("বিক্রয় ID" + " : " + id);
 
         txtProductName.setText(name);
-        txtProductPrice.setText("Tk. " + price);
+        txtProductPrice.setText("টাকা ৳ " + price);
         txtProductQuantity.setText(quantity);
         txtFullAddress.setText(address);
         txtBkashTexId.setText(bkash_tex);
-        txtTimeDate.setText("Time : " + time + " Date : " + date);
+        txtTimeDate.setText("সময় : " + time + " তারিখ : " + date);
 
 
         if (status.equals("0")) {
-            txtOrderStatus.setText("Order Pending");
+            txtOrderStatus.setText("বিক্রয় বিচারাধীন");
 
         } else if (status.equals("1")) {
 
 
-            txtOrderStatus.setText("Order Confirmed");
+            txtOrderStatus.setText("বিক্রয় নিশ্চিত");
             txtCancelOrder.setVisibility(View.GONE);
             txtConfirmOrder.setVisibility(View.GONE);
         } else if (status.equals("2")) {
-            txtOrderStatus.setText("Cancel");
+            txtOrderStatus.setText("বিক্রয় বাতিল");
             txtCancelOrder.setVisibility(View.GONE);
             txtConfirmOrder.setVisibility(View.GONE);
             txtRetailerCell.setVisibility(View.GONE);
@@ -127,9 +127,9 @@ public class OrderDetailsFarmerActivity extends AppCompatActivity {
 
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(OrderDetailsFarmerActivity.this);
-                builder.setMessage("Want to confirmed order ?")
+                builder.setMessage("পণ্য বিক্রি করতে নিশ্চিত??")
                         .setCancelable(false)
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        .setPositiveButton("হ্যা", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
 
 
@@ -138,7 +138,7 @@ public class OrderDetailsFarmerActivity extends AppCompatActivity {
                                 dialog.cancel();
                             }
                         })
-                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        .setNegativeButton("না", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 // Perform Your Task Here--When No is pressed
                                 dialog.cancel();
@@ -155,9 +155,9 @@ public class OrderDetailsFarmerActivity extends AppCompatActivity {
 
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(OrderDetailsFarmerActivity.this);
-                builder.setMessage("Want to cancel order ?")
+                builder.setMessage("পণ্য বিক্রি বাতিল করতে নিশ্চিত ?")
                         .setCancelable(false)
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        .setPositiveButton("হ্যা", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
 
 
@@ -166,7 +166,7 @@ public class OrderDetailsFarmerActivity extends AppCompatActivity {
                                 dialog.cancel();
                             }
                         })
-                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        .setNegativeButton("না", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 // Perform Your Task Here--When No is pressed
                                 dialog.cancel();
@@ -188,7 +188,7 @@ public class OrderDetailsFarmerActivity extends AppCompatActivity {
         loading = new ProgressDialog(this);
         // loading.setIcon(R.drawable.wait_icon);
         loading.setTitle("Update");
-        loading.setMessage("Please wait....");
+        loading.setMessage("অপেক্ষা করুন...");
         loading.show();
 
         String URL = Constant.UPDATE_ORDER_URL;
@@ -216,9 +216,9 @@ public class OrderDetailsFarmerActivity extends AppCompatActivity {
                             Intent intent = new Intent(OrderDetailsFarmerActivity.this, FarmerMainActivity.class);
 
                             if (getStatus.equals("1"))
-                                Toasty.success(OrderDetailsFarmerActivity.this, " Order Successfully Confirmed!", Toast.LENGTH_SHORT).show();
+                                Toasty.success(OrderDetailsFarmerActivity.this, "সঠিকভাবে বিক্রয় নিশ্চিত হয়েছে!", Toast.LENGTH_SHORT).show();
                             else if (getStatus.equals("2"))
-                                Toasty.error(OrderDetailsFarmerActivity.this, " Order Cancel!", Toast.LENGTH_SHORT).show();
+                                Toasty.error(OrderDetailsFarmerActivity.this, " বিক্রয় বাতিল!", Toast.LENGTH_SHORT).show();
 
 
                             startActivity(intent);
@@ -233,13 +233,13 @@ public class OrderDetailsFarmerActivity extends AppCompatActivity {
                             //Starting profile activity
 
                             Intent intent = new Intent(OrderDetailsFarmerActivity.this, FarmerMainActivity.class);
-                            Toast.makeText(OrderDetailsFarmerActivity.this, " Update fail!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(OrderDetailsFarmerActivity.this, " বিক্রয় হালনাগাদ ব্যার্থ!!", Toast.LENGTH_SHORT).show();
                             //startActivity(intent);
 
                         } else {
 
                             loading.dismiss();
-                            Toast.makeText(OrderDetailsFarmerActivity.this, "Network Error", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(OrderDetailsFarmerActivity.this, "নেটওয়ার্কে সমস্যা", Toast.LENGTH_SHORT).show();
 
                         }
 
@@ -251,7 +251,7 @@ public class OrderDetailsFarmerActivity extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
                         //You can handle error here if you want
 
-                        Toast.makeText(OrderDetailsFarmerActivity.this, "No Internet Connection or \nThere is an error !!!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(OrderDetailsFarmerActivity.this, "ইন্টারনেট কানেকশন নেই অথবা এখানে কোন একটা সমস্যা আছে!!", Toast.LENGTH_LONG).show();
                         loading.dismiss();
                     }
                 }) {

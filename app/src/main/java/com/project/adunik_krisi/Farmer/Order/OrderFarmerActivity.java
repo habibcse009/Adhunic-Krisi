@@ -190,7 +190,7 @@ public class OrderFarmerActivity extends AppCompatActivity {
                     HashMap<String, String> user_msg = new HashMap<>();
 
                     user_msg.put(Constant.KEY_NAME, "পণ্যের নাম  :  " + name);
-                    user_msg.put(Constant.KEY_PRICE, "পণ্যের দাম           :  " + price);
+                    user_msg.put(Constant.KEY_PRICE, "পণ্যের দাম           :  ৳" + price+" টাকা");
                     user_msg.put(Constant.KEY_QUANTITY, "পণ্যের পরিমাণ     :  " + quantity);
                     user_msg.put(Constant.KEY_STATUS, "অর্ডারের অবস্থা    :  " + status);
 

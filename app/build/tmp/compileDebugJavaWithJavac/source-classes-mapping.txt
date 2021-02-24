@@ -35,17 +35,18 @@ com/project/adunik_krisi/KrisiInformation/DhanerJatActivity.java
  com.project.adunik_krisi.KrisiInformation.DhanerJatActivity
 com/project/adunik_krisi/BuildConfig.java
  com.project.adunik_krisi.BuildConfig
-com/project/adunik_krisi/Customer/CusMainActivity.java
- com.project.adunik_krisi.Customer.CusMainActivity
- com.project.adunik_krisi.Customer.CusMainActivity$1
- com.project.adunik_krisi.Customer.CusMainActivity$2
- com.project.adunik_krisi.Customer.CusMainActivity$3
- com.project.adunik_krisi.Customer.CusMainActivity$4
- com.project.adunik_krisi.Customer.CusMainActivity$5
- com.project.adunik_krisi.Customer.CusMainActivity$6
- com.project.adunik_krisi.Customer.CusMainActivity$7
- com.project.adunik_krisi.Customer.CusMainActivity$8
- com.project.adunik_krisi.Customer.CusMainActivity$9
+com/project/adunik_krisi/Farmer/Order/OrderDetailsFarmerActivity.java
+ com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity
+ com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$1
+ com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$2
+ com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$2$1
+ com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$2$2
+ com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$3
+ com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$3$1
+ com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$3$2
+ com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$4
+ com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$5
+ com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$6
 com/project/adunik_krisi/ViewAdminNoticesActivity.java
  com.project.adunik_krisi.ViewAdminNoticesActivity
  com.project.adunik_krisi.ViewAdminNoticesActivity$1
@@ -81,29 +82,24 @@ com/project/adunik_krisi/KrisiInformation/DhanerInfoActivity.java
 com/project/adunik_krisi/Farmer/Product/adapter/ProductAdapter.java
  com.project.adunik_krisi.Farmer.Product.adapter.ProductAdapter
  com.project.adunik_krisi.Farmer.Product.adapter.ProductAdapter$MyViewHolder
-com/project/adunik_krisi/Farmer/FarmerMainActivity.java
- com.project.adunik_krisi.Farmer.FarmerMainActivity
- com.project.adunik_krisi.Farmer.FarmerMainActivity$1
- com.project.adunik_krisi.Farmer.FarmerMainActivity$2
- com.project.adunik_krisi.Farmer.FarmerMainActivity$3
- com.project.adunik_krisi.Farmer.FarmerMainActivity$4
- com.project.adunik_krisi.Farmer.FarmerMainActivity$5
- com.project.adunik_krisi.Farmer.FarmerMainActivity$6
- com.project.adunik_krisi.Farmer.FarmerMainActivity$7
- com.project.adunik_krisi.Farmer.FarmerMainActivity$8
- com.project.adunik_krisi.Farmer.FarmerMainActivity$9
-com/project/adunik_krisi/Farmer/Order/OrderDetailsFarmerActivity.java
- com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity
- com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$1
- com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$2
- com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$2$1
- com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$2$2
- com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$3
- com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$3$1
- com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$3$2
- com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$4
- com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$5
- com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity$6
+com/project/adunik_krisi/Farmer/Order/OrderActivity.java
+ com.project.adunik_krisi.Farmer.Order.OrderActivity
+ com.project.adunik_krisi.Farmer.Order.OrderActivity$1
+ com.project.adunik_krisi.Farmer.Order.OrderActivity$2
+ com.project.adunik_krisi.Farmer.Order.OrderActivity$3
+ com.project.adunik_krisi.Farmer.Order.OrderActivity$4
+ com.project.adunik_krisi.Farmer.Order.OrderActivity$5
+ com.project.adunik_krisi.Farmer.Order.OrderActivity$6
+com/project/adunik_krisi/KrisiInformation/KrisiInfoMainActivity.java
+ com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity
+ com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$1
+ com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$2
+ com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$3
+ com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$4
+ com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$5
+ com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$6
+ com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$7
+ com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$8
 com/project/adunik_krisi/Farmer/Profile/EditProfileFarmerActivity.java
  com.project.adunik_krisi.Farmer.Profile.EditProfileFarmerActivity
  com.project.adunik_krisi.Farmer.Profile.EditProfileFarmerActivity$1
@@ -118,14 +114,16 @@ com/project/adunik_krisi/Farmer/Profile/EditProfileFarmerActivity.java
  com.project.adunik_krisi.Farmer.Profile.EditProfileFarmerActivity$4
  com.project.adunik_krisi.Farmer.Profile.EditProfileFarmerActivity$5
  com.project.adunik_krisi.Farmer.Profile.EditProfileFarmerActivity$6
-com/project/adunik_krisi/Farmer/Order/OrderActivity.java
- com.project.adunik_krisi.Farmer.Order.OrderActivity
- com.project.adunik_krisi.Farmer.Order.OrderActivity$1
- com.project.adunik_krisi.Farmer.Order.OrderActivity$2
- com.project.adunik_krisi.Farmer.Order.OrderActivity$3
- com.project.adunik_krisi.Farmer.Order.OrderActivity$4
- com.project.adunik_krisi.Farmer.Order.OrderActivity$5
- com.project.adunik_krisi.Farmer.Order.OrderActivity$6
+com/project/adunik_krisi/Farmer/Product/AddProductActivity.java
+ com.project.adunik_krisi.Farmer.Product.AddProductActivity
+ com.project.adunik_krisi.Farmer.Product.AddProductActivity$1
+ com.project.adunik_krisi.Farmer.Product.AddProductActivity$1$1
+ com.project.adunik_krisi.Farmer.Product.AddProductActivity$1$2
+ com.project.adunik_krisi.Farmer.Product.AddProductActivity$2
+ com.project.adunik_krisi.Farmer.Product.AddProductActivity$3
+ com.project.adunik_krisi.Farmer.Product.AddProductActivity$3$1
+ com.project.adunik_krisi.Farmer.Product.AddProductActivity$3$2
+ com.project.adunik_krisi.Farmer.Product.AddProductActivity$4
 com/project/adunik_krisi/RegistrationActivity.java
  com.project.adunik_krisi.RegistrationActivity
  com.project.adunik_krisi.RegistrationActivity$1
@@ -194,12 +192,16 @@ com/project/adunik_krisi/Customer/Profile/EditProfileCusActivity.java
  com.project.adunik_krisi.Customer.Profile.EditProfileCusActivity$6
 com/project/adunik_krisi/remote/ApiClient.java
  com.project.adunik_krisi.remote.ApiClient
-com/project/adunik_krisi/Farmer/Order/OrderFarmerActivity.java
- com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity
- com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity$1
- com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity$2
- com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity$3
- com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity$4
+com/project/adunik_krisi/Farmer/Product/ProductDescriptionActivity.java
+ com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity
+ com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$1
+ com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$2
+ com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$3
+ com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$3$1
+ com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$3$2
+ com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$4
+ com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$5
+ com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$6
 com/project/adunik_krisi/Admin/AddNoticeAdminActivity.java
  com.project.adunik_krisi.Admin.AddNoticeAdminActivity
  com.project.adunik_krisi.Admin.AddNoticeAdminActivity$1
@@ -223,46 +225,44 @@ com/project/adunik_krisi/LoginActivity.java
  com.project.adunik_krisi.LoginActivity$4
  com.project.adunik_krisi.LoginActivity$5
  com.project.adunik_krisi.LoginActivity$6
-com/project/adunik_krisi/Farmer/Product/ProductDescriptionActivity.java
- com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity
- com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$1
- com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$2
- com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$3
- com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$3$1
- com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$3$2
- com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$4
- com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$5
- com.project.adunik_krisi.Farmer.Product.ProductDescriptionActivity$6
+com/project/adunik_krisi/KrisiInformation/DhanerProkriyakoronActivity.java
+ com.project.adunik_krisi.KrisiInformation.DhanerProkriyakoronActivity
+com/project/adunik_krisi/Admin/Profile/ProfileAdminActivity.java
+ com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity
+ com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity$1
+ com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity$2
+ com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity$3
+com/project/adunik_krisi/Farmer/Order/OrderFarmerActivity.java
+ com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity
+ com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity$1
+ com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity$2
+ com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity$3
+ com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity$4
+com/project/adunik_krisi/Farmer/FarmerMainActivity.java
+ com.project.adunik_krisi.Farmer.FarmerMainActivity
+ com.project.adunik_krisi.Farmer.FarmerMainActivity$1
+ com.project.adunik_krisi.Farmer.FarmerMainActivity$2
+ com.project.adunik_krisi.Farmer.FarmerMainActivity$3
+ com.project.adunik_krisi.Farmer.FarmerMainActivity$4
+ com.project.adunik_krisi.Farmer.FarmerMainActivity$5
+ com.project.adunik_krisi.Farmer.FarmerMainActivity$6
+ com.project.adunik_krisi.Farmer.FarmerMainActivity$7
+ com.project.adunik_krisi.Farmer.FarmerMainActivity$8
+ com.project.adunik_krisi.Farmer.FarmerMainActivity$9
 com/project/adunik_krisi/Customer/Orders/OrderListCusActivity.java
  com.project.adunik_krisi.Customer.Orders.OrderListCusActivity
  com.project.adunik_krisi.Customer.Orders.OrderListCusActivity$1
  com.project.adunik_krisi.Customer.Orders.OrderListCusActivity$2
  com.project.adunik_krisi.Customer.Orders.OrderListCusActivity$3
  com.project.adunik_krisi.Customer.Orders.OrderListCusActivity$4
-com/project/adunik_krisi/KrisiInformation/KrisiInfoMainActivity.java
- com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity
- com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$1
- com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$2
- com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$3
- com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$4
- com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$5
- com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$6
- com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$7
- com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity$8
-com/project/adunik_krisi/Admin/Profile/ProfileAdminActivity.java
- com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity
- com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity$1
- com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity$2
- com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity$3
-com/project/adunik_krisi/Farmer/Product/AddProductActivity.java
- com.project.adunik_krisi.Farmer.Product.AddProductActivity
- com.project.adunik_krisi.Farmer.Product.AddProductActivity$1
- com.project.adunik_krisi.Farmer.Product.AddProductActivity$1$1
- com.project.adunik_krisi.Farmer.Product.AddProductActivity$1$2
- com.project.adunik_krisi.Farmer.Product.AddProductActivity$2
- com.project.adunik_krisi.Farmer.Product.AddProductActivity$3
- com.project.adunik_krisi.Farmer.Product.AddProductActivity$3$1
- com.project.adunik_krisi.Farmer.Product.AddProductActivity$3$2
- com.project.adunik_krisi.Farmer.Product.AddProductActivity$4
-com/project/adunik_krisi/KrisiInformation/DhanerProkriyakoronActivity.java
- com.project.adunik_krisi.KrisiInformation.DhanerProkriyakoronActivity
+com/project/adunik_krisi/Customer/CusMainActivity.java
+ com.project.adunik_krisi.Customer.CusMainActivity
+ com.project.adunik_krisi.Customer.CusMainActivity$1
+ com.project.adunik_krisi.Customer.CusMainActivity$2
+ com.project.adunik_krisi.Customer.CusMainActivity$3
+ com.project.adunik_krisi.Customer.CusMainActivity$4
+ com.project.adunik_krisi.Customer.CusMainActivity$5
+ com.project.adunik_krisi.Customer.CusMainActivity$6
+ com.project.adunik_krisi.Customer.CusMainActivity$7
+ com.project.adunik_krisi.Customer.CusMainActivity$8
+ com.project.adunik_krisi.Customer.CusMainActivity$9
