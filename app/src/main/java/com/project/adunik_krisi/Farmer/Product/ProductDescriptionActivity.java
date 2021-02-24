@@ -48,7 +48,7 @@ public class ProductDescriptionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_product_description);
         getSupportActionBar().setHomeButtonEnabled(true); //for back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//for back button
-        getSupportActionBar().setTitle("Product Details");
+        getSupportActionBar().setTitle("পণ্যের বিবরণ ");
 
         imgProduct = findViewById(R.id.img_product);
         txtName = findViewById(R.id.txt_product_name);
@@ -85,10 +85,10 @@ public class ProductDescriptionActivity extends AppCompatActivity {
         String url = Constant.MAIN_URL + "/product_image/" + image;
 
         txtName.setText(name);
-        txtPrice.setText(Constant.KEY_CURRENCY + price + "/Package");
+        txtPrice.setText(Constant.KEY_CURRENCY + price + " /প্রতি কেজি");
         txtDescription.setText(description);
-        txtCategory.setText("Package Type : " + category);
-        txtQuantity.setText("Package Quantity : " + quantity);
+        txtCategory.setText("পণ্যের ধরন : " + category);
+        txtQuantity.setText("পণ্যের পরিমাণ  : " + quantity + " কেজি");
 
         Glide.with(ProductDescriptionActivity.this)
                 .load(url)
@@ -147,9 +147,9 @@ public class ProductDescriptionActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(ProductDescriptionActivity.this);
-                builder.setMessage("Want to delete this product ?")
+                builder.setMessage("পণ্য ডিলেট করতে নিশ্চিত?")
                         .setCancelable(false)
-                        .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        .setPositiveButton("হ্যা", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
 
 
@@ -159,7 +159,7 @@ public class ProductDescriptionActivity extends AppCompatActivity {
 
                             }
                         })
-                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        .setNegativeButton("না", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 // Perform Your Task Here--When No is pressed
                                 dialog.cancel();
@@ -188,7 +188,7 @@ public class ProductDescriptionActivity extends AppCompatActivity {
     public void DeleteFromServer(final String id) {
         loading = new ProgressDialog(this);
 
-        loading.setMessage("Delete item processing....");
+        loading.setMessage("ডিলেট এর কাজ চলছে...");
         loading.show();
 
         String URL = Constant.DELETE_PRODUCT_URL + "?product_id=" + id;
@@ -213,7 +213,7 @@ public class ProductDescriptionActivity extends AppCompatActivity {
                             //Starting profile activity
 
                             Intent intent = new Intent(ProductDescriptionActivity.this, FarmerMainActivity.class);
-                            Toasty.success(ProductDescriptionActivity.this, " Successfully Deleted!", Toast.LENGTH_SHORT).show();
+                            Toasty.success(ProductDescriptionActivity.this, "সঠিকভাবে পণ্য ডিলেট হয়েছে!!", Toast.LENGTH_SHORT).show();
                             startActivity(intent);
 
                         }
@@ -226,12 +226,12 @@ public class ProductDescriptionActivity extends AppCompatActivity {
                             //Starting profile activity
 
 
-                            Toasty.error(ProductDescriptionActivity.this, " Delete fail!", Toast.LENGTH_SHORT).show();
+                            Toasty.error(ProductDescriptionActivity.this, "পণ্য ডিলেট হতে ব্যার্থ!", Toast.LENGTH_SHORT).show();
 
                         } else {
 
                             loading.dismiss();
-                            Toasty.error(ProductDescriptionActivity.this, "Network Error", Toast.LENGTH_SHORT).show();
+                            Toasty.error(ProductDescriptionActivity.this, "নেটওয়ার্কে সমস্যা", Toast.LENGTH_SHORT).show();
 
                         }
 
@@ -243,7 +243,7 @@ public class ProductDescriptionActivity extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
                         //You can handle error here if you want
 
-                        Toast.makeText(ProductDescriptionActivity.this, "No Internet Connection or \nThere is an error !!!", Toast.LENGTH_LONG).show();
+                        Toast.makeText(ProductDescriptionActivity.this, "ইন্টারনেট কানেকশন নেই অথবা \nএখানে কোন একটা সমস্যা আছে !!!", Toast.LENGTH_LONG).show();
                         loading.dismiss();
                     }
                 }) {

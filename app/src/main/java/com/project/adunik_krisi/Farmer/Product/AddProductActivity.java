@@ -48,7 +48,7 @@ public class AddProductActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_product);
 
-        getSupportActionBar().setTitle("Add Product");
+        getSupportActionBar().setTitle("নতুন পণ্য যোগ");
         getSupportActionBar().setHomeButtonEnabled(true); //for back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//for back button
 
@@ -79,7 +79,7 @@ public class AddProductActivity extends AppCompatActivity {
                 final String[] categoryList = {"বোরো", "আউশ", "আমন", "রোপা আমন", "বোনা আমন", "বোনা এবং রোপা আউশ"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(AddProductActivity.this);
-                builder.setTitle("ধানের জাত");
+                builder.setTitle("ধানের জাত নির্ধারণ করুন");
                 //builder.setIcon(R.drawable.ic_gender);
 
 
@@ -154,26 +154,26 @@ public class AddProductActivity extends AppCompatActivity {
                 product_quantity = etxtQuantity.getText().toString();
 
                 if (product_name.isEmpty()) {
-                    etxtProductName.setError("Product name can't empty!");
+                    etxtProductName.setError("পণ্যের নাম খালি থাকতে পারবে না!");
                     etxtProductName.requestFocus();
                 } else if (product_category.isEmpty()) {
-                    etxtCategory.setError("Product category can't empty!");
+                    etxtCategory.setError("পণ্যের ধরন খালি থাকতে পারবে না!");
                     etxtCategory.requestFocus();
                 } else if (product_quantity.isEmpty()) {
-                    etxtQuantity.setError("Input product quantity per package");
+                    etxtQuantity.setError("পণ্যের পরিমাণ খালি থাকতে পারবে না!");
                     etxtQuantity.requestFocus();
                 } else if (product_price.isEmpty()) {
-                    etxtPrice.setError("Product price can't empty!");
+                    etxtPrice.setError("পণ্যের দাম খালি থাকতে পারবে না!");
                     etxtPrice.requestFocus();
                 } else if (product_description.isEmpty()) {
-                    etxtDescription.setError("Product description can't empty!");
+                    etxtDescription.setError("পণ্যের বিবরণ খালি থাকতে পারবে না!");
                     etxtDescription.requestFocus();
                 } else {
 
                     AlertDialog.Builder builder = new AlertDialog.Builder(AddProductActivity.this);
-                    builder.setMessage("Want to Add Product ?")
+                    builder.setMessage("পণ্য যোগ করতে নিশ্চিত?")
                             .setCancelable(false)
-                            .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                            .setPositiveButton("হ্যা", new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int which) {
 
 
@@ -184,7 +184,7 @@ public class AddProductActivity extends AppCompatActivity {
 
                                 }
                             })
-                            .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                            .setNegativeButton("না", new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int which) {
                                     // Perform Your Task Here--When No is pressed
                                     dialog.cancel();
@@ -220,7 +220,7 @@ public class AddProductActivity extends AppCompatActivity {
 
 
         } catch (Exception e) {
-            Toast.makeText(this, "Something went wrong", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "ছবি হালনাগাদে কোন একটা সমস্যা হচ্ছে...", Toast.LENGTH_LONG).show();
         }
 
     }

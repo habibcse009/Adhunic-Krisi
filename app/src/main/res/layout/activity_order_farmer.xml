@@ -18,9 +18,11 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="Search here"
+            android:hint="এখানে সার্চ করুন"
+
             android:inputType="textPersonName"
-            android:textColor="#FFF" />
+            android:textColor="#FFF"
+            android:textColorHint="@color/white" />
 
         <Button
             android:id="@+id/btnSearchOrderSp"
@@ -29,9 +31,8 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@drawable/card_bg"
-            android:text="Search"
-            android:textColor="#123"
-            android:textStyle="bold" />
+            android:text="সার্চ করুন"
+            android:textColor="#123" />
     </LinearLayout>
 
 

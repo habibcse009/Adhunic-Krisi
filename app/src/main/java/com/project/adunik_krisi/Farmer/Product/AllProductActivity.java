@@ -54,7 +54,7 @@ public class AllProductActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_all_product);
 
-        getSupportActionBar().setTitle("All Products");
+        getSupportActionBar().setTitle("সকল পণ্য সমূহ");
 
         whorlView = (WhorlView) this.findViewById(R.id.whorl2);
         whorlView.start();

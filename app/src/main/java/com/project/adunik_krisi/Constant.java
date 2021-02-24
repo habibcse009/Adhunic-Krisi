@@ -138,7 +138,8 @@ public class Constant {
     public static final String KEY_BKASHTEX = "bkash_tex";
 
     public static final String KEY_EMAIL = "email";
-    public static final String KEY_CURRENCY = "Tk.";
+    public static final String KEY_CURRENCY = "৳ ";
+    public static final String KEY_CURRENCY_BD = "টাকা ৳ ";
     //public static final String KEY_PAYMENT_METHOD = "payment_method";
     public static final String KEY_GENERAL_BED = "g_bed";
     public static final String KEY_GENDER = "gender";

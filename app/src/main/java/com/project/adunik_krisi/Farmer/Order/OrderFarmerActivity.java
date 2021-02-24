@@ -69,7 +69,7 @@ public class OrderFarmerActivity extends AppCompatActivity {
 
         getSupportActionBar().setHomeButtonEnabled(true); //for back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//for back button
-        getSupportActionBar().setTitle("Order List");
+        getSupportActionBar().setTitle("বিক্রির তালিকা");
 
 
         //Fetching cell from shared preferences
@@ -87,7 +87,7 @@ public class OrderFarmerActivity extends AppCompatActivity {
                 String searchText = etxtSearch.getText().toString().trim();
 
                 if (searchText.isEmpty()) {
-                    Toasty.error(OrderFarmerActivity.this, "Please input text!", Toast.LENGTH_SHORT).show();
+                    Toasty.error(OrderFarmerActivity.this, "পণ্যের সম্পর্কে কিছু লিখুন!", Toast.LENGTH_SHORT).show();
                 } else {
                     getData(searchText);
                 }
@@ -101,7 +101,7 @@ public class OrderFarmerActivity extends AppCompatActivity {
         String getSearchText = s;
         //showing progress dialog
         loading = new ProgressDialog(this);
-        loading.setMessage("Please wait....");
+        loading.setMessage("অপেক্ষা করুন....");
         loading.show();
 
         if (!s.isEmpty()) {
@@ -126,7 +126,7 @@ public class OrderFarmerActivity extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
 
                         loading.dismiss();
-                        Toasty.error(OrderFarmerActivity.this, "Network Error!", Toast.LENGTH_LONG).show();
+                        Toasty.error(OrderFarmerActivity.this, "নেটওয়ার্কে সমস্যা!", Toast.LENGTH_LONG).show();
                     }
                 });
 
@@ -146,7 +146,7 @@ public class OrderFarmerActivity extends AppCompatActivity {
             JSONArray result = jsonObject.getJSONArray(Constant.JSON_ARRAY);
 
             if (result.length() == 0) {
-                Toasty.error(OrderFarmerActivity.this, "No Order Found!", Toast.LENGTH_SHORT).show();
+                Toasty.error(OrderFarmerActivity.this, "কোন বিক্রির বিবরণী পাওয়া যায়নি!", Toast.LENGTH_SHORT).show();
                 finish();
 
 
@@ -180,19 +180,19 @@ public class OrderFarmerActivity extends AppCompatActivity {
 
 
                     if (status.equals("0")) {
-                        status = "Pending";
+                        status = "বিচারাধীন";
                     } else if (status.equals("1")) {
-                        status = "Confirmed";
+                        status = "নিশ্চিত";
                     } else if (status.equals("2")) {
-                        status = "Cancel";
+                        status = "বাতিল";
                     }
 
                     HashMap<String, String> user_msg = new HashMap<>();
 
-                    user_msg.put(Constant.KEY_NAME, "Product  :   " + name);
-                    user_msg.put(Constant.KEY_PRICE, "Price            :    " + price);
-                    user_msg.put(Constant.KEY_QUANTITY, "Quantity      :    " + quantity);
-                    user_msg.put(Constant.KEY_STATUS, "Status          :    " + status);
+                    user_msg.put(Constant.KEY_NAME, "পণ্যের নাম  :  " + name);
+                    user_msg.put(Constant.KEY_PRICE, "পণ্যের দাম           :  " + price);
+                    user_msg.put(Constant.KEY_QUANTITY, "পণ্যের পরিমাণ     :  " + quantity);
+                    user_msg.put(Constant.KEY_STATUS, "অর্ডারের অবস্থা    :  " + status);
 
 
                     list.add(user_msg);

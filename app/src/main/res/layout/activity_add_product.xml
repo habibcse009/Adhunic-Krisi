@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:padding="5dp"
-                android:text="Product or Package Name" />
+                android:text="পণ্যের নাম" />
 
             <EditText
                 android:id="@+id/etxt_product_name"
@@ -32,7 +32,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="22dp"
                 android:background="@drawable/round_border"
-                android:hint="Product or Package Name"
+                android:hint="পণ্যের নাম"
                 android:inputType="text"
                 android:padding="16dp"
                 android:textColor="@color/colorPrimary"
@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:padding="5dp"
-                android:text="Product Type" />
+                android:text="পণ্যের ধরন" />
 
             <EditText
                 android:id="@+id/etxt_categoryProduct"
@@ -56,7 +56,7 @@
                 android:background="@drawable/round_border"
                 android:drawableRight="@drawable/ic_arrow_down"
                 android:focusable="false"
-                android:hint="Category"
+                android:hint="পণ্যের ধরন"
                 android:inputType="text"
                 android:padding="16dp"
                 android:textColor="@color/colorPrimary"
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:padding="5dp"
-                android:text="Product or Package Quantity" />
+                android:text="কি পরিমাণ আপনার কাছে আছে" />
 
             <EditText
                 android:id="@+id/etxt_quantityProduct"
@@ -79,8 +79,8 @@
                 android:layout_marginRight="22dp"
                 android:layout_marginBottom="5dp"
                 android:background="@drawable/round_border"
-                android:hint="Quantity"
-                android:inputType="number"
+                android:hint="পরিমাণ"
+                android:inputType="numberDecimal"
                 android:padding="16dp"
                 android:textColor="@color/colorPrimary"
                 android:textSize="16dp" />
@@ -90,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:padding="5dp"
-                android:text="Price per Package" />
+                android:text="পণ্যের দাম প্রতি কেজিতে" />
 
             <EditText
                 android:id="@+id/etxt_priceProduct"
@@ -100,7 +100,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="22dp"
                 android:background="@drawable/round_border"
-                android:hint="Price"
+                android:hint="পণ্যের দাম"
                 android:inputType="numberDecimal"
                 android:padding="16dp"
                 android:textColor="@color/colorPrimary"
@@ -112,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:padding="5dp"
-                android:text="Description or Product Size" />
+                android:text="পণ্যের বিবরণ" />
 
             <EditText
                 android:id="@+id/etxt_descriptionProduct"
@@ -123,7 +123,7 @@
                 android:layout_marginRight="22dp"
                 android:background="@drawable/round_border"
                 android:gravity="start"
-                android:hint="Description or Product Size\nPlease add the shop name and mobile number"
+                android:hint="পণ্যের বিবরণ লিখুন এবং নিজের নাম এবং মোবাইল নাম্বার লিখুন"
                 android:inputType="textMultiLine"
                 android:padding="16dp"
                 android:textColor="@color/colorPrimary"
@@ -141,7 +141,7 @@
                 android:background="@drawable/bgbtnonfocus"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Choose Image"
+                android:text="ছবি বাছাই করুন"
                 android:textColor="#ffffff"
                 android:textSize="18dp"
                 android:textStyle="bold" />
@@ -167,7 +167,7 @@
                 android:background="@drawable/bgbtnonfocus"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Submit"
+                android:text="হালনাগাদ করুন"
                 android:textColor="#ffffff"
                 android:textSize="18dp"
                 android:textStyle="bold" />

@@ -53,7 +53,7 @@ public class OrderActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order);
 
-        getSupportActionBar().setTitle("Order Panel");
+        getSupportActionBar().setTitle("অর্ডার হালনাগাদ");
         getSupportActionBar().setHomeButtonEnabled(true); //for back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);//for back button
 
@@ -114,10 +114,10 @@ public class OrderActivity extends AppCompatActivity {
                 }*/
 
                 if (address.isEmpty()) {
-                    etxtFullAddress.setError("Enter full address");
+                    etxtFullAddress.setError("সম্পূর্ন ঠিকানা লিখুন");
                     etxtFullAddress.requestFocus();
                 } else if (bkash_tex.isEmpty()) {
-                    etxBkashTexID.setError("Enter bKash TexID");
+                    etxBkashTexID.setError("বিকাশের ট্রান্সজেকশন নাম্বার লিখুন");
                     etxBkashTexID.requestFocus();
                 } else {
                     orderSubmit();
@@ -132,7 +132,7 @@ public class OrderActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 weight++;
-                txtQuantity.setText(weight + " KG");
+                txtQuantity.setText(weight + " কেজি");
 
                 int mPrice = weight * Integer.valueOf(getPrice);
                 txtPrice.setText("" + mPrice);
@@ -144,10 +144,10 @@ public class OrderActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 if (weight <= 20) {
-                    Toasty.warning(OrderActivity.this, "Minimum quantity is 20 Kg", Toast.LENGTH_SHORT).show();
+                    Toasty.warning(OrderActivity.this, "সর্বনিম্ন ২০ কেজি অর্ডার করতে হবে!", Toast.LENGTH_SHORT).show();
                 } else {
                     weight--;
-                    txtQuantity.setText(weight + " KG");
+                    txtQuantity.setText(weight + " কেজি");
 
                     int mPrice = weight * Integer.valueOf(getPrice);
                     txtPrice.setText("" + mPrice);
@@ -165,7 +165,7 @@ public class OrderActivity extends AppCompatActivity {
         //showing progress dialog
 //
         loading = new ProgressDialog(OrderActivity.this);
-        loading.setMessage("Please wait....");
+        loading.setMessage("অপেক্ষা করুন...");
         loading.show();
 
         //Creating a string request
@@ -188,7 +188,7 @@ public class OrderActivity extends AppCompatActivity {
                             loading.dismiss();
                             //Starting profile activity
                             Intent intent = new Intent(OrderActivity.this, CusMainActivity.class);
-                            Toasty.success(OrderActivity.this, "Order successful", Toast.LENGTH_SHORT).show();
+                            Toasty.success(OrderActivity.this, "সঠিকভাবে পণ্য অর্ডার হয়েছে!", Toast.LENGTH_SHORT).show();
                             startActivity(intent);
 
                         }
@@ -199,7 +199,7 @@ public class OrderActivity extends AppCompatActivity {
 
                             loading.dismiss();
 
-                            Toasty.success(OrderActivity.this, "Order failed!", Toast.LENGTH_SHORT).show();
+                            Toasty.success(OrderActivity.this, "অর্ডার ব্যার্থ!", Toast.LENGTH_SHORT).show();
 
 
                         }
@@ -212,7 +212,7 @@ public class OrderActivity extends AppCompatActivity {
                     public void onErrorResponse(VolleyError error) {
                         //You can handle error here if you want
 
-                        Toasty.error(OrderActivity.this, "Error in connection!", Toast.LENGTH_LONG).show();
+                        Toasty.error(OrderActivity.this, "ইন্টারনেট কানেকশন নেই!", Toast.LENGTH_LONG).show();
                         // loading.dismiss();
                     }
                 }) {
