@@ -13,6 +13,7 @@ import com.project.adunik_krisi.Admin.Profile.ProfileAdminActivity;
 import com.project.adunik_krisi.Admin.UsersList.CustomersListAdminActivity;
 import com.project.adunik_krisi.Admin.UsersList.FarmersListAdminActivity;
 import com.project.adunik_krisi.Constant;
+import com.project.adunik_krisi.Farmer.Product.AllProductActivity;
 import com.project.adunik_krisi.KrisiInformation.KrisiInfoMainActivity;
 import com.project.adunik_krisi.LoginActivity;
 import com.project.adunik_krisi.R;
@@ -106,8 +107,9 @@ public class AdminMainActivity extends AppCompatActivity {
         cardAllProductsAdmin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*Intent intent = new Intent(AdminMainActivity.this, OrderListAdminActivity.class);
-                startActivity(intent);*/
+                Intent intent = new Intent(AdminMainActivity.this, AllProductActivity.class);
+                intent.putExtra("type", "admin");
+                startActivity(intent);
                 Toasty.info(AdminMainActivity.this, "Products Panel Clicked!", Toast.LENGTH_SHORT).show();
 
             }

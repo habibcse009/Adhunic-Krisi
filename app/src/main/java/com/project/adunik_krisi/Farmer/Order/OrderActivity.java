@@ -143,8 +143,8 @@ public class OrderActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if (weight <= 20) {
-                    Toasty.warning(OrderActivity.this, "সর্বনিম্ন ২০ কেজি অর্ডার করতে হবে!", Toast.LENGTH_SHORT).show();
+                if (weight <= 5) {
+                    Toasty.warning(OrderActivity.this, "সর্বনিম্ন 5 কেজি অর্ডার করতে হবে!", Toast.LENGTH_SHORT).show();
                 } else {
                     weight--;
                     txtQuantity.setText(weight + " কেজি");
