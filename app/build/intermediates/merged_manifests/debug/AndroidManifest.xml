@@ -24,6 +24,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Adunik_krisi"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.project.adunik_krisi.AudioNoticeActivity" />
         <activity android:name="com.project.adunik_krisi.Customer.FarmersList.FarmerProductsActivity" />
         <activity android:name="com.project.adunik_krisi.Farmer.Order.OrderDetailsFarmerActivity" />
         <activity android:name="com.project.adunik_krisi.Farmer.Order.OrderFarmerActivity" />
