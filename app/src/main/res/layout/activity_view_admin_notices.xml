@@ -41,13 +41,27 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true" />
 
+    <Button
+        android:id="@+id/btn_AudioNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bgbtnonfocus"
+        android:gravity="center"
+        android:text="অডিও নোটিশ সমূহ"
+        android:textColor="@color/map_button_normal"
+        android:textColorHint="#123"
+        android:textSize="20sp" />
+
     <ListView
 
         android:id="@+id/listView_ViewNotice"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="12dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="125dp"
         android:layout_marginRight="12dp" />
 
 </RelativeLayout>

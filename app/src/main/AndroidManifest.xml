@@ -15,7 +15,8 @@
         android:theme="@style/Theme.Adunik_krisi"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Customer.FarmersList.FarmerProductsActivity"></activity>
+        <activity android:name=".AudioNoticeActivity"></activity>
+        <activity android:name=".Customer.FarmersList.FarmerProductsActivity" />
         <activity android:name=".Farmer.Order.OrderDetailsFarmerActivity" />
         <activity android:name=".Farmer.Order.OrderFarmerActivity" />
         <activity android:name=".Farmer.Order.OrderActivity" />

@@ -1,11 +1,13 @@
 package com.project.adunik_krisi;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListAdapter;
@@ -31,7 +33,7 @@ import es.dmoral.toasty.Toasty;
 
 public class ViewAdminNoticesActivity extends AppCompatActivity {
     ListView CustomList;
-    Button btnSearch;
+    Button btnAudioList;
     EditText etxtSearch;
     //    private ImageView imgNoData;
     private ProgressDialog loading;
@@ -48,6 +50,7 @@ public class ViewAdminNoticesActivity extends AppCompatActivity {
         CustomList = findViewById(R.id.listView_ViewNotice);
         //  btnSearch = findViewById(R.id.btnSearch_user);
         etxtSearch = findViewById(R.id.etxt_search_ViewNotice);
+        btnAudioList = findViewById(R.id.btn_AudioNotice);
 
         //  imgNoData = findViewById(R.id.img_no_data);
 
@@ -84,7 +87,14 @@ public class ViewAdminNoticesActivity extends AppCompatActivity {
 
         });
 
+        btnAudioList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ViewAdminNoticesActivity.this, AudioNoticeActivity.class);
+                startActivity(intent);
 
+            }
+        });
     }
 
 

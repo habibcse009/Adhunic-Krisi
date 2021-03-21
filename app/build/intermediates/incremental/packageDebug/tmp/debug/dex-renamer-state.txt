@@ -1,4 +1,4 @@
-#Wed Feb 24 23:06:08 BDT 2021
+#Mon Mar 22 00:09:29 BDT 2021
 base.0=H\:\\ClientProject\\Sifat_Resourse\\App_Code\\Adunik_Krisi\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
